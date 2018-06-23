@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8425DFD734E07033CE7462B6 /* Pods_Macetohuerto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E69149FEBD138A8D7797962E /* Pods_Macetohuerto.framework */; };
+		C640A7FE20DD7B7E005A886B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640A7FD20DD7B7E005A886B /* TabBarViewController.swift */; };
+		C640A80220DD86D4005A886B /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640A80120DD86D4005A886B /* PlantTableViewCell.swift */; };
+		C640A80420DD88ED005A886B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C640A80320DD88ED005A886B /* GoogleService-Info.plist */; };
+		C640A80620DE3BD6005A886B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640A80520DE3BD6005A886B /* ChatViewController.swift */; };
+		C640A80820DE8685005A886B /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640A80720DE8685005A886B /* ChatTableViewCell.swift */; };
 		C69D16B320D5B7A400F9A5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D16B220D5B7A400F9A5C5 /* AppDelegate.swift */; };
 		C69D16B520D5B7A400F9A5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D16B420D5B7A400F9A5C5 /* ViewController.swift */; };
 		C69D16B820D5B7A400F9A5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69D16B620D5B7A400F9A5C5 /* Main.storyboard */; };
 		C69D16BA20D5B7A400F9A5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69D16B920D5B7A400F9A5C5 /* Assets.xcassets */; };
 		C69D16BD20D5B7A400F9A5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69D16BB20D5B7A400F9A5C5 /* LaunchScreen.storyboard */; };
+		C69D16C520D6F5F700F9A5C5 /* plants.json in Resources */ = {isa = PBXBuildFile; fileRef = C69D16C420D6F5F700F9A5C5 /* plants.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B92C67FF5138F77E5450A2D /* Pods-Macetohuerto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macetohuerto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Macetohuerto/Pods-Macetohuerto.debug.xcconfig"; sourceTree = "<group>"; };
+		67CED4136CDD7BF74D5F8EB4 /* Pods-Macetohuerto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macetohuerto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macetohuerto/Pods-Macetohuerto.release.xcconfig"; sourceTree = "<group>"; };
+		C640A7FD20DD7B7E005A886B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C640A80120DD86D4005A886B /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+		C640A80320DD88ED005A886B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C640A80520DE3BD6005A886B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C640A80720DE8685005A886B /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		C69D16AF20D5B7A400F9A5C5 /* Macetohuerto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macetohuerto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69D16B220D5B7A400F9A5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69D16B420D5B7A400F9A5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		C69D16B920D5B7A400F9A5C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69D16BC20D5B7A400F9A5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69D16BE20D5B7A400F9A5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69D16C420D6F5F700F9A5C5 /* plants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plants.json; sourceTree = "<group>"; };
+		E69149FEBD138A8D7797962E /* Pods_Macetohuerto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Macetohuerto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8425DFD734E07033CE7462B6 /* Pods_Macetohuerto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3918E413B903849482842BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B92C67FF5138F77E5450A2D /* Pods-Macetohuerto.debug.xcconfig */,
+				67CED4136CDD7BF74D5F8EB4 /* Pods-Macetohuerto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C640A7FF20DD86A6005A886B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C640A7FD20DD7B7E005A886B /* TabBarViewController.swift */,
+				C640A80020DD86B7005A886B /* cells */,
+				C69D16B420D5B7A400F9A5C5 /* ViewController.swift */,
+				C640A80520DE3BD6005A886B /* ChatViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C640A80020DD86B7005A886B /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				C640A80120DD86D4005A886B /* PlantTableViewCell.swift */,
+				C640A80720DE8685005A886B /* ChatTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		C69D16A620D5B7A400F9A5C5 = {
 			isa = PBXGroup;
 			children = (
 				C69D16B120D5B7A400F9A5C5 /* Macetohuerto */,
 				C69D16B020D5B7A400F9A5C5 /* Products */,
+				B3918E413B903849482842BC /* Pods */,
+				FEFD526DDABFAE8346A01828 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +103,23 @@
 			isa = PBXGroup;
 			children = (
 				C69D16B220D5B7A400F9A5C5 /* AppDelegate.swift */,
-				C69D16B420D5B7A400F9A5C5 /* ViewController.swift */,
+				C640A7FF20DD86A6005A886B /* views */,
 				C69D16B620D5B7A400F9A5C5 /* Main.storyboard */,
+				C640A80320DD88ED005A886B /* GoogleService-Info.plist */,
+				C69D16C420D6F5F700F9A5C5 /* plants.json */,
 				C69D16B920D5B7A400F9A5C5 /* Assets.xcassets */,
 				C69D16BB20D5B7A400F9A5C5 /* LaunchScreen.storyboard */,
 				C69D16BE20D5B7A400F9A5C5 /* Info.plist */,
 			);
 			path = Macetohuerto;
+			sourceTree = "<group>";
+		};
+		FEFD526DDABFAE8346A01828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E69149FEBD138A8D7797962E /* Pods_Macetohuerto.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69D16C120D5B7A400F9A5C5 /* Build configuration list for PBXNativeTarget "Macetohuerto" */;
 			buildPhases = (
+				CD4C34B63045DD2A99C60E10 /* [CP] Check Pods Manifest.lock */,
 				C69D16AB20D5B7A400F9A5C5 /* Sources */,
 				C69D16AC20D5B7A400F9A5C5 /* Frameworks */,
 				C69D16AD20D5B7A400F9A5C5 /* Resources */,
+				CD1E309B96013AC3EA11484F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,7 +183,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69D16C520D6F5F700F9A5C5 /* plants.json in Resources */,
 				C69D16BD20D5B7A400F9A5C5 /* LaunchScreen.storyboard in Resources */,
+				C640A80420DD88ED005A886B /* GoogleService-Info.plist in Resources */,
 				C69D16BA20D5B7A400F9A5C5 /* Assets.xcassets in Resources */,
 				C69D16B820D5B7A400F9A5C5 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +193,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD1E309B96013AC3EA11484F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Macetohuerto/Pods-Macetohuerto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macetohuerto/Pods-Macetohuerto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4C34B63045DD2A99C60E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Macetohuerto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C69D16AB20D5B7A400F9A5C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C640A7FE20DD7B7E005A886B /* TabBarViewController.swift in Sources */,
+				C640A80220DD86D4005A886B /* PlantTableViewCell.swift in Sources */,
 				C69D16B520D5B7A400F9A5C5 /* ViewController.swift in Sources */,
+				C640A80820DE8685005A886B /* ChatTableViewCell.swift in Sources */,
+				C640A80620DE3BD6005A886B /* ChatViewController.swift in Sources */,
 				C69D16B320D5B7A400F9A5C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,13 +383,14 @@
 		};
 		C69D16C220D5B7A400F9A5C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B92C67FF5138F77E5450A2D /* Pods-Macetohuerto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y66V47D85Z;
 				INFOPLIST_FILE = Macetohuerto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gft.Macetohuerto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josep.Macetohuerto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +399,14 @@
 		};
 		C69D16C320D5B7A400F9A5C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CED4136CDD7BF74D5F8EB4 /* Pods-Macetohuerto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y66V47D85Z;
 				INFOPLIST_FILE = Macetohuerto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gft.Macetohuerto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josep.Macetohuerto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
