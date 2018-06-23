@@ -1,0 +1,6 @@
+framework module Pods_Macetohuerto {
+  umbrella header "Pods-Macetohuerto-umbrella.h"
+
+  export *
+  module * { export * }
+}
