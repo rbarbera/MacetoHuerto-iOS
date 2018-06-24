@@ -10,6 +10,8 @@ import Foundation
 import Firebase
 import FirebaseDatabase
 import FirebaseStorage
+import FirebaseAuth
+import FirebaseUI
 
 public struct Message {
     let name: String
@@ -22,12 +24,76 @@ class ChatViewController: ViewController {
     var ref: DatabaseReference!
     var messageList = [Message]()
     var myTableView: UITableView = UITableView()
+    
+    lazy var sendButton: UIButton = {
+        var button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .white
+        button.addTarget(self, action: #selector(btnTouched(_:)), for: .touchUpInside)
+        let image = UIImage(named: "send") as UIImage?
+        button.setImage(image, for: .normal)
+        button.isEnabled = false
+        return button
+    }()
+    
+    lazy var inputField: UITextField = {
+        var input = UITextField()
+        input.translatesAutoresizingMaskIntoConstraints = false
+        input.backgroundColor = .white
+        input.layer.borderWidth = 1
+        input.layer.cornerRadius = 10.0
+        input.layer.borderColor = UIColor(red:0/255, green:0/255, blue:0/255, alpha: 1).cgColor
+        input.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
 
+        return input
+    }()
+    
+    @objc func btnTouched(_ textField: UIButton) {
+        if self.loggedUser == nil {
+            showLoginDialog()
+        } else {
+            let objectToSave = toAnyObject()
+            print(objectToSave)
+                
+            ref.child("messages").childByAutoId().setValue(objectToSave) {
+                (error, ref) in
+                if let error = error {
+                    print("Data could not be saved: \(error).")
+                } else {
+                    print("Data saved successfully!")
+                    self.inputField.text = ""
+                }
+            }
+        }
+    }
+    
+    func toAnyObject() -> [String : String]  {
+        if let textMessage = inputField.text,
+            let authorMessage = loggedUser?.displayName {
+            let newMessageData = [
+                "date": Date().dateFormattedForChat,
+                "name": authorMessage,
+                "text": textMessage
+            ]
+            return newMessageData
+        }
+        return [:]
+    }
+    
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        self.sendButton.isEnabled = !(textField.text?.isEmpty ?? true)
+    }
+    
+    
+    
+    /** @var handle
+     @brief The handler for the auth state listener, to allow cancelling later.
+     */
+    var handle: AuthStateDidChangeListenerHandle?
     private final let perPage: UInt = 50
-
+    var loggedUser: User?
     
     override func viewDidAppear(_ animated: Bool) {
-
         ref = Database.database().reference()
         
         myTableView.dataSource = self
@@ -36,37 +102,106 @@ class ChatViewController: ViewController {
         myTableView.register(ChatTableViewCell.self, forCellReuseIdentifier: ChatTableViewCell.reuseIdentifier)
         
         self.view.addSubview(myTableView)
+        self.view.addSubview(inputField)
+        self.view.addSubview(sendButton)
+        self.view.backgroundColor = .white
+        
         myTableView.translatesAutoresizingMaskIntoConstraints = false
-        myTableView.backgroundColor = .red
+        myTableView.rowHeight = UITableViewAutomaticDimension
+
+        myTableView.backgroundColor = .gray
+        
+        NSLayoutConstraint.activate([
+            inputField.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant: 8),
+            inputField.rightAnchor.constraint(equalTo: self.sendButton.leftAnchor),
+            inputField.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor),
+            inputField.topAnchor.constraint(equalTo: self.sendButton.topAnchor)
+            ])
+        
+        NSLayoutConstraint.activate([
+            sendButton.leftAnchor.constraint(equalTo: self.inputField.rightAnchor),
+            sendButton.rightAnchor.constraint(equalTo: self.view.rightAnchor),
+            sendButton.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor),
+            sendButton.widthAnchor.constraint(equalToConstant: 50.0)
+            ])
+        
         NSLayoutConstraint.activate([
             myTableView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
             myTableView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
-            myTableView.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 70.0),
-            myTableView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
+            myTableView.topAnchor.constraint(equalTo: self.view.layoutMarginsGuide.topAnchor),
+            myTableView.bottomAnchor.constraint(equalTo: self.inputField.topAnchor)
             ])
         
         ref.child("messages").queryOrderedByKey()
             .queryLimited(toLast: perPage)
-            .observeSingleEvent(of: .value, with: { (snapshot) in
+            .observe(.value, with: { (snapshot) in
+                print("event here")
                 for postSnapshot in snapshot.children {
                     guard let snap = (postSnapshot as? DataSnapshot)
-                         else { continue }
-                    let message = snap.value as AnyObject
-                    let name = message["name"] as? String ?? ""
-                    let text = message["text"] as? String ?? ""
-                    let date = message["date"] as? String ?? ""
-                    let photoUrl = message["photoUrl"] as? String ?? ""
-                    self.messageList.append(Message(name: name, text: text, date: date, photoUrl: photoUrl))
+                        else { continue }
+                    if let message = snap.value as? [String:AnyObject] {
+                        let name = message["name"] as? String ?? ""
+                        let text = message["text"] as? String ?? ""
+                        let date = message["date"] as? String ?? ""
+                        let photoUrl = message["photoUrl"] as? String ?? ""
+                        self.messageList.append(Message(name: name, text: text, date: date, photoUrl: photoUrl))
+                    }
                 }
-        
                 self.myTableView.reloadData()
-        }) { (error) in
-            print(error.localizedDescription)
+                if self.messageList.count > 0 {
+                    self.myTableView.scrollToRow(at: IndexPath(item: self.messageList.count-1, section: 0), at: .bottom, animated: true)
+                }
+                
+            }) { (error) in
+                print(error.localizedDescription)
+        }
+        
+        
+    }
+}
+
+extension ChatViewController: FUIAuthDelegate {
+    
+    func showLoginDialog() {
+        let alert = UIAlertController(title: "autenticate".localized, message: "autenticate_description".localized, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            if action.style == .default {
+                self.showLoginPage()
+            }
+            }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func showLoginPage() {
+        let authUI = FUIAuth.defaultAuthUI()
+        // You need to adopt a FUIAuthDelegate protocol to receive callback
+        authUI?.delegate = self
+        let providers: [FUIAuthProvider] = [
+            FUIGoogleAuth()
+        ]
+        authUI?.providers = providers
+        if let authViewController = authUI?.authViewController() {
+            present(authViewController, animated: true, completion: nil)
+        }
+    }
+    func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        handle = Auth.auth().addStateDidChangeListener { (auth, user) in
+            self.loggedUser = user
         }
     }
     
-    
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        Auth.auth().removeStateDidChangeListener(handle!)
+    }
+
 }
 
 extension ChatViewController: UITableViewDataSource, UITableViewDelegate {
@@ -81,3 +216,10 @@ extension ChatViewController: UITableViewDataSource, UITableViewDelegate {
     }
 }
 
+extension Date {
+    var dateFormattedForChat: String {
+        let dateFormatterPrint = DateFormatter()
+        dateFormatterPrint.dateFormat = "dd/MM/yyyy HH:mm"
+        return dateFormatterPrint.string(from: self)
+    }
+}

@@ -1,0 +1,498 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: strings.xml conversion
+ * Release: Working copy
+ * Locale: en, English
+ * Exported by: Unregistered user
+ * Exported at: Sun, 24 Jun 2018 00:10:24 +0200
+ */
+
+/*  */
+"app_name" = "Pot Agriculture";
+
+/*  */
+"action_settings" = "Settings";
+
+/*  */
+"en" = "on";
+
+/*  */
+"acelga" = "Chard";
+
+/*  */
+"acelga_description" = "Chards (Beta vulgaris, cycla), belong to the Quenopodiáceas family. It is cultivated for its large leaves that possess thick white stalks. It is a biannual plant. Appreciated for its greenness which provides vitamins, fiber, folic acid mineral salts and very few calories because of its high water concentration. It is of easy cultivation.\n\n\n\n\n<b>General advises for the cultivation of chard</b>\n\n\n\n● It prefers temperate-humid climatology. High cold resistance when the plants already have 4-5 leaves.\n\n\n\n\n● The action of low temperatures has a vernalization effect and causes the ascent of the flower when the temperatures rise.\n\n\n\n\n● Grows better in lands of average to strong consistency and highly tolerates salinity. Nitrogenised inputs must be fractioned along the cultivation.\n\n\n\n\n● It can be planted during all year, although the Summer end and autumn sowings are the less advisable, above all in continental climatology where these plants are harvested well developed.\n\n\n\n\n● The establishment is done by direct sowing (3Kg/Ha) at broadcast or in rows separated by 50-60cm. At times, also seedbeds are done at 3grs/m2 for their subsequent transplant with 5-6 leaves. After the sowing, it is advisable an abundant irrigation to obtain a good germination.\n\n\n\n\n● Irrigations should be frequent, as chards thank a high humidity of the land without being swamped.\n\n\n\n\n● Harvesting can be done by collecting entire young plants or only the leaves of adult plants to make use of the stalks.\n        \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"lechuga" = "Romaine lettuce";
+
+/*  */
+"lechuga_description" = "Lettuce belongs to the Compositae family (Lactuca sativa L.) It is an annual plant, typical of semi-temperate regions, grown for food and from which the leaves are used. It is extraordinarily polymorphic in colour (green, yellow, purple), textures (crunchy, buttery, batavias) and different leaf shapes. The leaves are sweet and are eaten raw. It can be grown and used throughout the year. The Romaine lettuce has elongated buds and puffed leaves, crispy and very sweet. It is the most typical Spanish lettuce.\n\n\n\n        <b>General advises for growing lettuce</b>\n\n\n\n\n● It prefers warm and humid climates. There are varieties suitable for growing in different weather conditions, area and time of the year. To obtain an adequate quantity and quality production, the ones that fits best should be chosen. Not following these assumptions may lead to the appearance of physiological disorders, lack of development or a rapid rise to flower.\n\n\n\n\n● To get good specimens both in quality and size they must be cared for properly.\n\n\n\n\n\n\n<b>In Seedbed</b>\n\n\n\n● Use a suitable substrate for the development of lettuce until the time of transplantation (5-7 leaves). We recommend using trays to make plants with root ball, which will have fewer failures after transplantation.\n\n\n\n\n● Choosing the right variety for the type of cultivation, sowing time and market requirements.\n\n\n\n\n● After planting it is advisable to keep the temperature around 5 ° C for 48 hours to avoid dormancy.\n\n\n\n\n● Then the temperature will be maintained between 20 and 25 ° C and with constant high humidity. Treat with fungicides and insecticides if necessary. Under these conditions the plants will be ready for transplanting in 25-30 days.\n\n\n\n\n\n\n<b>In the final field:</b>\n\n\n\n● Search well-drained parcels and prepare the soil so that it is perfectly fluffy.\n\n\n\n\n● Fertilize with a balanced background fertilizer (2-1-3).\n\n\n\n\n● Add an effective insecticide against possible soil pests.\n\n\n\n\n● Keep the field free of weeds.\n\n\n\n\n● It is recommended to plant in small banks to avoid rotting problems in both neck and root.\n\n\n\n\n● Leave a row distance of 30-60cm and of 20-40cm between plants.\n\n\n\n\n● Provide controlled irrigation to have a constant as possible moisture on the ground. Its absence will cause premature blooming and an excess; choking, rotting and deficiencies.\n\n\n\n\n● Take care of the crop to avoid aphid and thrip attacks, with approved preventive products, since they are transmitters of different viruses and control mildew, Botrytis and Sclerotinia with fungicides.\n\n\n\n\n● Nitrogen inputs are desirable and should be fractioned into 2-3 times reaching 100A/Ha, always before the start of the bud development.\n        \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"rabanito" = "Radish";
+
+/*  */
+"rabanito_description" = "Radish (Raphanus sativus) is a plant of the Cruciferae family. It is grown for its edible root. It is a very easy and fast growing plant. Every 30 days we can have radishes well formed and ready to eat. It has different shapes (round, mediumlong and long) and colors (white, red, pink with white tips, etc..). There are two subspecies, sativus is the radish and the longipinnatus is the Japanese or daikon type. Commonly used in salads for its colour and flavour.\n\n\n\n        <b>General advises for growing radishes</b>\n\n\n\n\n● Because of being fast growing and its production of small plants, the planting phase is the most delicate.\n\n\n\n\n● Use a variety suited to the planting season. For Autumn and Spring plantings, almost all varieties are adequate. For Winter crops, use varieties suitable for short days and in Summer plantings, late varieties with a compact root.\n\n\n\n\n● The texture of the plot should be light or loamy and well fertilized.\n\n\n\n\n● Choose the correct location of the plot depending on the season. Winter crops will be protected under plastic or in some way. In Spring and Autumn it can be done anywhere, but in summer it is recommended to plant in shady and cool places.\n\n\n\n\n● Sow seed to seed in rows. It is more cumbersome than broadcast sowing but prevents an heterogeneous nascence and the loss of plants because of not properly forming the root, as the radish, despite its small size, requires a certain surface for a perfect development.\n\n\n\n\n● Bury the seed at a proper depth as it influences the final form. The round varieties superficially (0,5-1cm maximum) and medium long varieties at 2-3cm.\n\n\n\n\n● Water frequently for a constant humidity without waterlogging. Sprinkler irrigation it is suited. During dry periods it can affect the development and quality of the roots.\n\n\n\n\n● Harvest at the right time. It is advisable to collect before the complete development of the root as its quality would be affected.\n         \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"espinaca" = "Spinach";
+
+/*  */
+"espinaca_description" = "Spinach (Spinacia oleracea) is an annual plant from the Chenopodiaceae family, which is cultivated as a vegetable for its edible, large and very dark green leaves. The whole plant or individual leafs can be used. Today is one of the most common frozen vegetables and in IV range. This plant is very easy to grow. It is rich in vitamins A and E, iodine and several antioxidants.\n\n\n\n<b>General advises for the cultivation of spinach</b>\n\n\n\n\n● Choose the correct variety depending on the growing season and the area where we are.\n\n\n\n\n● It grows best in humid places with light and deep soil, well-provided of minerals. It does not stand dumped land. Sprinkler irrigation is well suited.\n\n\n\n\n● Very resistant to salinity and appreciates the contributions of nitrogen.\n\n\n\n\n● It can be grown all year round, although the heat and long days of summer are the most limiting factors. For this time of the year you must choose specific varieties, regular watering, planting in consistent and cold soils and even with some shading. In autumn it will be planted in light and warm soil.\n\n\n\n\n● It is advisable to plant on a firm and slightly moist land with a rate of 3 g/m2, in rows 30 cm apart and to 2cm deep. After sowing, compact the ground.\n\n\n\n\n● It is desirable to have an adult plant every 8-10 cm for an optimal development.\n\n\n\n\n● When the weather is favorable, 5-6 weeks after planting, the more developed plants can begin to be collected.\n\n\n\n\n● Spinach can be grown as an industrial plant. You can make several cuts harvesting with a harvester. Planting, weed control and pesticide treatments can be completely mechanized as any extensive herbaceous crop.\n\n\n\n\n● If the terrain has weed problems apply the appropriate herbicide after sowing.\n        \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"zanahoria" = "Carrot";
+
+/*  */
+"zanahoria_description" = "The carrot belongs to the Umbelliferae family, also named Apiaceae. It is the most important and mostly consumed vegetable belonging to that family. Biennial plant that forms a rosette of leaves in spring and summer, while developing the thick and principal root, which stores large amounts of sugar for flowering the following year. The flower stem grows about 1 m with an umbel of white flowers at the apex. The edible root is usually orange, white or a combination of red and white with a crispy texture when fresh.\n\n\n\n\n        <b>General advises for the cultivation of carrots</b>\n\n\n\n\n● Choose light-textured plots, sandy if possible and with water holding capacity. In these conditions carrots come out fine, well formed and with quality.\n\n\n\n\n● Depending on the area it can be grown in different seasons. Its optimum growth temperature is between 16 and 18 º C. High temperature affects a lighter color of the roots and longer and thinner ends, while lower temperatures produce a yellowish coloring and less root length. It withstands mild frosts.\n\n\n\n\n● It is important to prepare the ground with an early deep work and later with surface works to allow a fine and loose earth.\n\n\n\n\n● Provide manure in the previous crops to control root problems. Use 1-2-3 complex background fertilizers and mulch with several inputs of nitrogen and potassium.\n\n\n\n\n● Incorporate an insecticide at the time of planting to control wire worm or cutworms that feed on roots.\n\n\n\n\n● Sow 1-2 cm. deep, increasing the efficacy of herbicides and ensuring greater uniformity of the crop. With mechanical seeders spent 3-6 Kg/Ha. It gives very good results planting strips 4cm wide and 18 cm between rows, spending 3-5 million seeds/ha. For a non professional cultivation it can be sown in small plots at broadcast.\n\n\n\n\n● Maintain a constant humidity both during the plant emergence and during the crop, as smoothly as possible. It is ideal to use sprinkler irrigation.\n\n\n\n\n● Keep the crop clean of weeds which will facilitate harvesting.\n\n\n\n\n● Control black pod disease (root), mildew, Alternaria, Cercospora, Septoria and rhizoctonia (leaves) with appropriate fungicides.\n\n\n\n\n● Harvesting can be done manually or mechanized, which makes it much cheaper for large plots.\n                \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"tomate" = "Tomato";
+
+/*  */
+"tomate_descripcion" = "The Tomato plant is an herbaceous perennial grown as an annual, sensitive to cold. The early varieties (those that flower and fruit more quickly) often reach a length of 1.2 m, the late, however, usually are larger and reach 2.5 m in high.  The fruit is a berry. In the wild species of tomato the fruit is biloculed, while in the cultivated varieties is biloculed or 30-loculed, being the most common, from 5 to 9 locules. The fruits shape is variable, usually globose-depressive or oblong. Each fruit has many small, flattened, yellowish-gray and hairy seeds embedded in a gelatinous mass formed by the Parenchymatic tissue that fills the cavities of ripe fruit.\n\n\n\n        <b>General advises for the cultivation of tomatoes</b>\n\n\n\n\n● Prefers fertile, fresh, mucky, loose, permeable and deep soils.\n\n\n\n\n● It is a tropical plant, so it adapts very well in Mediterranean climates and almost without forcing the crop it can be harvested throughout the year. The minimum temperature is 12 º C and the optimum is centered between 18 and 20°C.\n\n\n\n\n● The sowing is done in seedbed, or direct by sowing, used almost exclusively when it comes to trailing tomato for industry. The seedbed is made in climate-controlled greenhouses.\n\n\n\n\n● The transplant is performed from the time that no frosts are expected.\n\n\n\n\n● If they are undetermined growing varieties we must proceed to the staking of the plants when they are 20-30 cm. height.\n\n\n\n\n● The plantation frame ranges from 40-70 cm between plants and 60-120 cm between rows. This will make a population between 20,000 strong varieties for market and nearly 40,000 varieties for industry with a compact vegetation.\n\n\n\n\n● Water immediately after transplanting, then from 20-25 days when the first flowers curdle, and then every 8-10 days or so. If drip irrigation is used bear in mind that the greatest needs for water are from the beginning of the fruit set.\n\n\n\n\n● This plant accepts well abundant fertilizers. At background with an NPK and magnesium based fertilizer during growth and contributions of nitrogen and potassium during de cultivation period.\n\n\n\n\n● Take care of the crop's health especially when environmental conditions are rather extreme for the cultivation such as high humidity, low or very high temperatures or after each pruning or harvesting.\n\n\n\n\n● It is advisable to prune the plants and there are varieties which is totally necessary. With it, it is possible to increase production, earlier flowering, better quality and treatments are easier to perform by not having much foliage.\n\n\n\n\n● Depending on the destination of the fruit (salad market, ripe market, corsages, bread with tomato \"pa amb tomaquet,\" concentrated industry, peeling industry, etc..) y and type of fruit (ribbed, round, pear, long life, etc.). collection is done at one time or another.\n\n\n\n\n● Industrial varieties can be fully automatized.\n        \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"berenjena" = "Eggplant";
+
+/*  */
+"berenjena_description" = "The Eggplant (Solanum melongena) is an annual herbaceous plant belonging to the Solanaceae family. It reaches a height of 0.5 to 1m. It has an erected and branching stem. The backside of the leaves is covered by a layer of hair, sometimes with ribs provided of thorns and the flowers are large and purple star-shaped. Demands lots of brightness, requires 10 to 12 hours of sunlight. Withstands high temperatures whenever there is an adequate humidity and it is very sensitive to cold, minimum biological temperature (10 to 12 ° C) and maximum (40 to 45 ° C), the optimum relative humidity is between 50% and 65%. It is a summer crop.\n\n\n\n\n<b>General advises for the cultivation of eggplant</b>\n\n\n\n● Demands higher temperatures than pepper and tomato, being the optimum between 20 and 30°C, does not grow below 12°C and withstands fairly well temperatures over 40ºC.\n\n\n\n\n● It is grown in seedbed, usually in trays to obtain plants ready for transplanting when they have 4-5 leaves.\n\n\n\n\n● Demands light and pleasant temperatures.\n\n\n\n\n● Demands a deep and well drained soil, though it can resist strong soils.\n\n\n\n\n● It does not tolerate an excess of humidity.\n\n\n\n\n● Plant density 0,8-1 m between rows and 0,5-0,8 m between plants.\n\n\n\n\n● It does not have many health problems, being the most important the yellow spider, the potato beetle and the alternaria disease.\n\n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"brocoli" = "Broccoli";
+
+/*  */
+"brocoli_description" = "The broccoli (Brassica oleracea italica) belongs to the Cruciferae family. It is a very hardy medium sized plant, vigorous and upright. It has abundant edible flower heads. It differs from the cauliflower in that its pellets are much less compact, usually gray-green colour and with exterior inflorescences. They are arranged in a treelike form, arising from a thick edible stalk. It is a cool weather crop, so in our latitudes it will grow better in the Autumn-Winter-Spring growing cycle. It has a high content in vitamin C, vitamin E and soluble dietary fiber.\n\n\n\n<b>General advises for the cultivation of broccoli</b>\n\n\n\n● Choose well drained medium textured fertile plots.\n\n\n\n\n● Planting is done from June to July in seedbed at doses of 2-2.5 g/m2 transplanting when they have 5-6 leaves with a plant density of 0.8 X 0.55m, usually on ridges.\n\n\n\n\n● Water thoroughly after transplanting.\n\n\n\n\n● Harvesting takes place in autumn and early winter, according to the date of planting and growing area.\n\n\n\n\n● There are varieties picked up only once because the main head represents almost the entire crop, and others which last a long time once they sprout.\n\n\n\n\n● It is similar to cauliflower, both in dates and cultivation techniques.\n\n\n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"apio" = "Celery";
+
+/*  */
+"apio_description" = "Celery (Apium graveolens) belongs to the Umbelliferae family. It has grooved stems that form a thick white, fleshy and crispy stalk. The whole plant has a strong flavour, but the blanching of the stalks makes it lose these qualities, acquiring a sweeter taste and the characteristic aroma that makes it a good ingredient for salads and soups. It can be found all year but the best are in autumn and winter.\n\n\n\nThere are two types:   \n\nCelery: With fleshy petioles named stalks.   \n\nCelery-turnip: With little developed petioles, but which form a globosely and fleshy swelling in the roots.\n\n\n<b>General advises for the cultivation of celery</b>\n\n\n\n\n\n\n● Prefers deep soils with abundant organic matter, that doesn't dump.\n\n\n\n\n● Irrigation should be continued but not excessive.\n\n\n\n\n● Better vegetation with mild temperatures. It has little resistance to frost and an excessive heat paralyze its development.\n\n\n\n\n● It is grown in seedbed, usually in trays to obtain plants ready for transplanting when they have 4-5 leaves.\n\n\n\n\n● Planted from September to February for export and in April-May for harvest in December, which is the usual thing in the interior market.\n\n\n\n\n● It is transplanted in rows 50-70cm apart and 20-30cm between plants.\n        \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"roble" = "Oak lettuce";
+
+/*  */
+"planificador" = "Planner";
+
+/*  */
+"videos" = "Videos";
+
+/*  */
+"tips" = "Tips";
+
+/*  */
+"compost" = "Compost";
+
+/*  */
+"onion" = "Onion";
+
+/*  */
+"onion_description" = "The onion (Allium cepa) is an herbaceous plant of the Alliaceae family which has a root system formed by numerous fasciculated rootlets, emerging from a stem in a disc like form. This stem disc present numerous nodes and internodes (very short), and from it begin the leaves. The leaves have two distinct parts; a basal one, thickened as a result of the accumulation of reserves of substances that form the bulb; and a terminal one, which is the green and photosynthetically active part of the plant. The shape and colour of the bulbs are highly variable, characteristic of each variety. They have a typical odor and flavor with a remarkable bactericidal power.\n\n\n\n\n<b>General advises for growing onions</b>\n\n\n\n● Plant at the right time according to the cycle of the variety and to the growing area. It can be done in seedbed (6-8 grs./m2) or direct sowing with naked seed (5-6Kg/Ha) or pelletized (600000-1000000 pills/Ha).\n\n\n\n\n● Search for the most fertile land and which is not clayey.\n\n\n\n\n● Work well the soil with a thin surface layer (2cm.)\n\n\n\n\n● A rich in nitrogen and potassium basal dressing is required. If manure is provided, better 3-4 months before planting. When the bulb of the plant is in mid progress, stop the contribution of nitrogen.\n\n\n\n\n● Keep the field free of weeds, because of having little leaf surface it quickly invades the crop, affecting greatly at its performance.\n\n\n\n\n● In Spring control mildew, botrytis (in wet years) and trips throughout all the cultivation.\n\n\n\n\n● In the use of herbicides, fungicides and insecticides, you should follow the instructions of the supplier.\n\n\n\n\n● A week before harvest it is advised to use a broad-spectrum antifungal treatment (against Fusarium, Rhizoctonia, etc.) so that the bulbs come into the storehouse as clean as possible.\n\n\n\n\n● It is important that at harvest time the onions have lost the excess water, so you should not provide the \"last irrigation.\"\n\n\n\n\n● Harvest carefully and as soon as possible once uprooted.\n\n\n\n\n● It is essential to store the onions with perfect ventilation and temperature conditions for an optimal conservation, within the characteristics of each variety.\n                \n\nSource: http://semillasbatlle.es/en/14";
+
+/*  */
+"garlic" = "Garlic";
+
+/*  */
+"garlic_description" = "It is a product widely used in our kitchen and with multiple properties beneficial to our body. It is a plant that prefers well drained soils without excess moisture. In this sense, during the next two weeks, coinciding with the full moon and waning, and whenever time permits, we can carry out its planting.\n\n\n\n<b> General Tips for Growing Garlic </b>\n\n\n\n● First, we recommend the planting of selected garlic seed, disease-free.\n\n\n\n\n● We will use to plant only the external teeth of the garlic head, discarding the inner part because the inner teeth are much less productive. The latter we can use them for consumption or plant them to get garlic, also very appreciated in the kitchen.\n\n\n\n\n● Garlic prefers light soil and does not like heavy and too wet soil.\n\n\n\n\n● As for the subscriber, it is a plant that grows well by taking advantage of the remains of previous crops. Of course, we will improve the size of the crop if we add some fertilizer or compost well mature. Wood ash, because of its high content of potassium, also helps the garlic to grow healthy and give a good harvest.\n\n\n\n\n● As for the planting frame, it is recommended to plant it in rows leaving between 6 and 10 centimeters between garlic and garlic, approximately one span. Between row and row we will leave about 15 centimeters, since the separation between them will help to circulate the air better and not to propagate the diseases.\n\n\n\n\n● When planting garlic cloves, do not bury them too much. It is recommended that the tip of the tooth is exposed.\n\n\n\n\n● It is not advisable to mulch the garlic. It is a crop that resists frost very well and cultivation on bare ground.\n    \n\nSource: http://www.campogalego.com/es/huerta/el-ajo-consejos-de-cultivo/";
+
+/*  */
+"subject_email" = "Suggestions for the app";
+
+/*  */
+"body_email" = "Some suggestions that I would like to see in the app:";
+
+/*  */
+"send_email" = "Send mail…";
+
+/*  */
+"error_email" = "There are no email clients installed.";
+
+/*  */
+"materia_organica" = "Organic material";
+
+/*  */
+"materia_seca" = "Dry material";
+
+/*  */
+"frutas" = "Fruit waste";
+
+/*  */
+"vegetales" = "Vegetable waste";
+
+/*  */
+"poda" = "Fresh pruning";
+
+/*  */
+"cage" = "Coffee grounds";
+
+/*  */
+"cascaras" = "Eggshells";
+
+/*  */
+"infusion" = "Tea Bags";
+
+/*  */
+"estiercol" = "Fresh manure";
+
+/*  */
+"hojas" = "Dry leaves";
+
+/*  */
+"carton" = "Cardboard and paper";
+
+/*  */
+"huevera" = "Cardboard egg";
+
+/*  */
+"servilleta" = "Paper napkins";
+
+/*  */
+"cocina" = "Kitchen paper";
+
+/*  */
+"serrin" = "Sawdust";
+
+/*  */
+"cenizas" = "ashes";
+
+/*  */
+"paja" = "Straw";
+
+/*  */
+"semilleros" = "Seeders";
+
+/*  */
+"plantar" = "Plant";
+
+/*  */
+"cosechar" = "Harvest";
+
+/*  */
+"enero" = "January";
+
+/*  */
+"febrero" = "February";
+
+/*  */
+"marzo" = "March";
+
+/*  */
+"abril" = "April";
+
+/*  */
+"mayo" = "May";
+
+/*  */
+"junio" = "June";
+
+/*  */
+"julio" = "July";
+
+/*  */
+"agosto" = "August";
+
+/*  */
+"septiembre" = "September";
+
+/*  */
+"octubre" = "October";
+
+/*  */
+"noviembre" = "November";
+
+/*  */
+"diciembre" = "December";
+
+/*  */
+"send_button_label" = "send";
+
+/*  */
+"doubts_chat" = "Doubts chat";
+
+/*  */
+"registrar" = "Sign in";
+
+/*  */
+"error_videos" = "Problem refreshing videos...";
+
+/*  */
+"vegetable_preview" = "Vegetable preview";
+
+/*  */
+"icon" = "Icon";
+
+/*  */
+"select_a_photo_to_upload" = "Select a photo to upload";
+
+/*  */
+"refresh" = "Refresh";
+
+/*  */
+"complete_action_using" = "Complete action using";
+
+/*  */
+"autenticate" = "Authenticate first";
+
+/*  */
+"autenticate_description" = "Please authenticate first in order to ask your doubts or ideas.\n (Don't worry, it takes at most 30 seconds :) )";
+
+/*  */
+"signed_in" = "Signed in!";
+
+/*  */
+"sing_in_canceled" = "Sign in canceled";
+
+/*  */
+"search_string" = "vegetable pot gardening";
+
+/*  */
+"error_image_big" = "ERROR: image too big!";
+
+/*  */
+"yes" = "Yes";
+
+/*  */
+"no" = "No";
+
+/*  */
+"like_app" = "Do you like the app?";
+
+/*  */
+"rate_us" = "Rate us on Google Play or send us feedback to improve the app.";
+
+/*  */
+"title_activity_settings" = "Settings";
+
+/* Strings related to Settings */
+"pimiento" = "Pepper";
+
+/*  */
+"pepino" = "Cucumber";
+
+/*  */
+"remolacha" = "Beetroot";
+
+/*  */
+"coliflor" = "Cauliflower";
+
+/*  */
+"guisantes" = "Peas";
+
+/*  */
+"judias" = "Haricot";
+
+/*  */
+"pref_title_add_friends_to_messages" = "Language for Doubts Chat";
+
+/*  */
+"cantidad_de_riego" = "Amount of watering";
+
+/*  */
+"litros_nsustrato" = "Container\nliters";
+
+/*  */
+"pref_example_list_titles[0]" = "English";
+
+/*  */
+"pref_example_list_titles[1]" = "Spanish";
+
+/*  */
+"pref_example_list_values[0]" = "1";
+
+/*  */
+"pref_example_list_values[1]" = "0";
+
+/*  */
+"coliflor_description" = "The Cauliflower (Brassica oleracea botrytis) is a plant of the Cruciferae family. This is an annual plant that we can have all year with the suitable varieties, although the best time for harvesting it is between October and January. It forms a compact head, formed by immature inflorescences, of 2-3 kg. The colour is usually white but it may also be orange, green or purple. It tastes smooth and sometimes slightly sweet.\n\n\n\n<b> Physiology of the cauliflower</b>\n\n\n\nIt is a very peculiar kind of crop because its development is influenced by different parameters. In the growth of cauliflowers 3 phases are distinguished:\n\n\n\n\n● The Juvenile phase which begins with the germination and producing only vegetation throughout it. In summer cauliflowers this phase lasts 5-8 weeks and they form 5-7 leaves, in those in Autumn this phase lasts 5-8 weeks and they form 12-15 leaves and the ones in winter lasts 10-15 weeks and form 20-30 leaves.\n\n\n\n\n● The Floral Induction phase, which by the action of low temperatures induces the formation of the head. Vernalizing temperatures for winter cauliflowers go from 6-10 ° C during 5-15 weeks depending on the cycle, for autumn cauliflowers, between 8-15 ° C during 2-5 weeks and the summer ones above 15 º C.\n\n\n\n\n● Head formation phase, time in which the plant stops making leaves and the smaller ones cover the head. The temperature strongly affects the growth of the head: zero growth is between 3-5 ° C, while a temperature rise of 3-4 ° C increases production by an 80%. This is the cause of the difference in the precocity of a same variety in different years.\n        \n\n\n<b> General Tips for Growing cauliflowers </b>\n\n\n\n\n● Overall they prefer cool and moist climates. They are Autumn-Winter-Spring crops, so they are resistant to mild frosts. If they are very severe it can affect the heads.\n\n\n\n\n● It prefers deep and well fertilized soils that retain well the humidity but without dumping problems.\n\n\n\n\n● It is usually used de transplantation technique, which takes place 30-35 days after sowing.\n\n\n\n\n● According to the development of the variety chosen, area and growing season, the row spacing can vary from 50-100 cm and 30-50 cm between plants.\n\n\n\n\n● Properly fertilize according to the fertility of the plot.\n\n\n\n\n● Control weeds with the use of herbicides. Be aware of phytopathological problems that may arise: (soil worms, cabbage fly, cabbage false filly, moth, flea beetles, aphids, mildew, alternaria).\n\n\n\n\n● Harvest when the heads have the appropriate size.\n        \n\nSource: http://semillasbatlle.es/en/155";
+
+/*  */
+"guisante_description" = "The pea (Pisum sativum) is an annual plant belonging to the Leguminosae family. As an horticultural crop, seeds and pods are taken advantage of, depending on the variety that we grow. Tall pea varieties include those with an indeterminate growth, which must be staked to keep the crop upright in order to favor its development. The height goes from 1m and over, reaching up to 3m. Flowers are white or purple depending on the variety. It is easily cultivated and very productive, developing in the mild times of the year, being present in many family orchards.\n\n\n\n        <b> General Tips for Growing tall peas</b>\n\n\n\n● Better adapted to temperate and humid climate, though not very resistant to severe frost (under -6 ° C). The optimum growth temperature is between 14-26 ° C. Excessive heat can harm it.\n\n\n\n\n● Moisture, both in the soil and environmental, is basic for the crop, but does not support the excess water which can cause root suffocation and the death of plants.\n\n\n\n\n● Prefers light or medium textured soils, fresh but well drained. No planting in clayish soils or with excess of moisture.\n\n\n\n\n● It is not too demanding in nutrients, but a supply rich in phosphorus and potassium will benefit its development.\n\n\n\n\n● Sowing is done directly in the cropping field.\n\n\n\n\n● In warm climates they are planted in Sept-Oct-Nov and in cold regions from February to May.\n\n\n\n\n● Sow in rows 60-70 cm apart in furrows spending 20-30 kg/1000 m2.\n\n\n\n\n● In large plots apply herbicides to control weeds. Stake the plants when they are 20 to 30cm. It is very beneficial to use spray irrigation. There should not be without water during flowering.\n\n\n\n\n● No excessive phytosanitary problems if planted in suitable plots and at the right time. Aphids and diseases such as anthracnose and powdery mildew may appear but can be controlled with the right products.\n\n\n\n\n● Carefully collect when the pods and seeds are formed to obtain a smooth and nutritious vegetable.\n\n         \n\nSource: http://semillasbatlle.es/en/973";
+
+/*  */
+"judia_description" = "Tall Beans (Phaseolus vulgare) used for greening belongs to the Leguminosae family. It is an annual herbaceous plant. It develops well in mild but humid weather. Does not stand frost. Highly polymorphic spiecies in the form of its pods (flat, round, short, long), colour (green, yellow, mottled, violet) and flowers (white, purple). Pods do not develop wires being a tasty and very healthy vegetable.\n        \n\n\n<b> General Tips for Growing tall beans</b>\n        \n\n\n● Find well-drained and light plots. Manage a good soil aeration based on a prior work to planting.\n\n\n\n\n● Fertilize with a background fertilizer rich in potassium (1-1-3). If manure must be incorporated do it 6 months in advance to avoid phytosanitary problems in neck and root.\n\n\n\n\n● Add an effective insecticide against soil pests (wire worms, cutworms, bean fly, etc).\n\n\n\n\n● Plant at the right time for each zone, depending on the variety and the time of collection you want. Must avoid the formation of crust.\n\n\n\n\n● The desired seeding rate is 40seeds/m2 with a row distance of 0.-0.8 m depending on the variety and zone and spending from 50-100 according to the pmg.\n\n\n\n\n● Always keep the field free of weeds\n\n\n\n\n● No need to stake.\n\n\n\n\n● Avoid excessive irrigation causing waterlogging and water shortage especially in bloom time. Dripping and spray irrigation are very suitable for this crop. The correct water supply avoids many root problems(Fusarium, Pytium, Rhizoctonia). To group the crop and harvest mechanically, irrigate in the fruit set of the first pods and spend some time without watering until the crop is thirsty.\n\n\n\n\n● Take care of the crop and keep the field margins clean. The treatments should be periodic and preventive.\n\n\n\n\n● In moist springs, treat against Anthracnose, Botrytis and some sporadic aphid attack.\n\n\n\n\n● In Summer the most important problem is the yellow spider, whose lack of control can destroy the entire crop. There may also be thrips causing deformations in the pods.\n\n\n\n\n● In Autumn treat against rust, Sclerotinia and aphids.\n\n\n\n\n● Make phytosanitary treatments early in the morning.\n\n\n\n\n● Nitrogen dressing inputs must be less than 50 UF. N. and fractionated, as it could cause an excessive vegetative growth and produce a physiological imbalance in the fruit setting of the pod.\n\n\n\n\n● Harvest often (1-3 days depending on varieties) to prevent the hardening of the pods.\n\n\n\n\n● It is a fully machinable crop.\n         \n\nSource: http://semillasbatlle.es/en/167";
+
+/*  */
+"pepino_description" = "The Cucumber (Cucumis sativus) is the fruit of an herbaceous annual plant of the Cucurbitaceae family. The plant has large green leaves with small spines and tendrils to climb up the tutors in order to achieve better quality and healthier fruits. The cucumber is a vegetable of green skin more or less dark or yellowish, depending on the variety, with an elongated cylindrical shape of variable length. The interior has a white and watery flesh with small flattened seeds spread throughout the fruit. It is a very refreshing fruit. There are three types of cucumbers: short cucumber or pickle, French cucumber and long or Dutch cucumber.\n        \n\n\n<b> General Tips for Growing cucumbers</b>\n\n\n\n● It is a warm season plant. Development stops at temperatures below 10-12 ° C.\n\n\n\n\n● Prefers loamy ground without water logging problems and rich in organic matter.\n\n\n\n\n● Planting is usually done from March to May, though for other cycles the average daily temperature must be over 12ºC.\n\n\n\n\n● Can be done in seedbed or by direct sowing.\n\n\n\n\n● Stacking the plant will ensure it grows erect and that the fruits do not touch the ground.\n\n\n\n\n● Control phytopathological problems that may arise, taking special care at mildew and spider attacks.\n\n\n\n\n● Harvest when they are tender. Can become sour if picked ripe or if the plant has suffered some kind of stress.\n\n\n\n\n● Choose the variety best suited to your needs.\n        \n\nSource: http://semillasbatlle.es/en/176";
+
+/*  */
+"pimineto_description" = "The pepper (Capsicum annuum) is an annual plant of the Solanaceae family. It is a summer crop, which is widespread throughout the Mediterranean area. It does not withstand low temperatures. It produces a fruit with a great variety of shapes (conical, square glasses, heart-shaped, round, etc.) and colours when ripe (green, red, yellow, white, purple, etc). There are sweet and spicy(capsaicin) fruits. They can be fried, grilled or even used as colorants once the fruits are dry. Very traditional crop.\n\n\n\n\n        <b> General Tips for Growing peppers</b>\n\n\n\n\n● Look for healthy, deep, rich and not waterlogged plots, with light texture and which drain well to avoid health problems in neck and roots. It is also advisable to leave several years without growing peppers in the same plot.\n\n\n\n\n● It is a plant that grows well in hot climates, so it is perfectly adapted to greenhouse cultivation. Optimum development occurs between 16 and 25 ° C. Below 15 ° C its growth is affected and below 10°C it stops growing. Above 35 ° C it may occur a fall of the flowers.\n\n\n\n\n● Choose the most appropriate variety regarding the use we want: Broil, salad, frying, stuffing, sauces, condiments, etc..\n\n\n\n\n● Use firstly a background fertilizer and later in topdressing with fertilizers rich in nitrogen, potassium and micro-elements.\n\n\n\n\n● Planting is done mainly in seedbed, and direct sowing is used sometimes for industrial crops(2-3 kg/ha of seed). It is very important to carry out disinfection and to make preventive treatments to avoid criptogamic problems in the early stages.\n\n\n\n\n● The distances between plants must be of 40-50 cm and 70-90 cm between rows.\n\n\n\n\n● Hilling must be done once watered and with the plants well rooted so irrigation does not wet the stem and cause disease.\n\n\n\n\n● Drip irrigation is well suited to avoid waterlogging problems.\n\n\n\n\n● The major phytosanitary problem is the \"sorrow of the pepper\" that according to certain external symptoms it is produced by different pests: Phytophthora capsici (mildew): Attacks in lines with a sharp and total withering, and with little defoliation. Verticillium dahliae (Verticillium) Attacks by stands, progressive withering sometimes unilateral, accused defoliation and browning of vascular bundles with slow progression in the plot. Finally there is the root asphyxia where the attack is by stands, with irregular defoliation, drying of the inside of the stem and rotting roots.\n\n\n\n\n● To encourage fruit setting, especially in greenhouses and tunnels, aerate as mostly as possible even though it is done artificially, decrease nitrogen and increase phosphorus, potassium and magnesium, delete whitening of greenhouses to provide more light and reduce the volume of water irrigation. With all this, stress is produced favoring the setting of the fruit. Return to the usual way and procedures when there is a reasonable number of growing fruits, otherwise the flowers could fall.\n\n\n\n\n● Collect when ripe.\n        \n\nSource: http://semillasbatlle.es/en/179";
+
+/*  */
+"remolacha_description" = "The beetroot (Beta vulgaris) is a plant of the Chenopodiaceas family. Roots and leaves are used. The table varieties have thick roots, red and fleshy and are mainly eaten cooked. Morphologically they are round, flattened and elongated. They have a very strong red color due to two pigments, the betacyanin and betaxanthin. Often used as a colorant in food products. It is easy to grow.\n\n\n\n        <b> General Tips for Growing beetroot</b>\n\n\n\n\n● Prefers soft and moist climatology.\n\n\n\n\n● After sowing it should be watered thoroughly to hydrate the seed so it can germinate correctly.\n\n\n\n\n● It prefers light, deep and fresh soils, although it is very resistant to salinity.\n\n\n\n\n● Normally planted in Spring in rows 40-50 cm apart. It can also be planted in other seasons, taking care of low temperatures when the roots are formed, because it may induce the rise of flowers.\n\n\n\n\n● If we sow multigerm seeds, it is advisable to clarify the seedlings to get better and more uniform in size roots.\n\n\n\n\n● Usually harvested in Autumn-Winter.\n        \n\nSource: http://semillasbatlle.es/en/182";
+
+/*  */
+"albahaca_descripcion" = "Basil is one of the most useful and beautiful herbs you can grow. There are so many different types of basil with more appearing every year. Try curly basil, Dark Opal basil and the traditional Genovese. Also  the tiny leaves of the bush basil are very tasty as well as lovely to look at.\n\n\nBasil needs a warm and sunny spot to thrive. Six to eight hours of direct sunlight is perfect, though if you live in a really hot climate you may want to give your basil some afternoon shade. For basil to really take off, the soil and air needs to be fairly warm, so don't rush putting out your plants in the spring. Wait until about two weeks after your last frost before putting out your plants and don't forget to harden them off.\n        \n\nYou really can grow basil in almost anything. All kinds of containers will work, including a kiddie pool and the laundry basket pictured above. However, basil likes room so air can circulate around the plants. It also doesn't like to dry out completely so use as big a pot as you can. You don't want to crowd your plants, though if you are making your pot for looks as well as function, you can put them closer than the recommended 12-18 inches apart. Try them more like 6-8 inches apart. Basil is prone to fungus so keeping airflow between plants is important.\n\n\nMake sure your pot has plenty of drainage and that you use a high quality potting soil. Basil doesn't like to be too wet, so you want to keep your soil moist not soggy. Try using fabric pots like the Smart Pots pictured above. For a more finished look, you can put the smart pot in a larger vessel like this red laundry basket for a pop of color.\n        \n\nBasil is incredibly easy to start from seed. You can direct seed or start your seeds inside about a month before your last frost date (you will want to set them outside about 2 weeks after your last frost date). Basil needs some light to germinate, so don't plant the seeds too deeply—only 1/4\" deep. Temperatures around 70°F are perfect, but you have some flexibility with the temperature. Plants will germinate from 5-10 days.\n\n\nTransplant carefully when the plants have 3-4 sets of leaves.\n\n\nYou can also root basil in water. Take the stem of a plant and put it in a clear vase or glass of water. When roots appear you can transplant out (after hardening off) into your pot.\n    \n\nBasil is picky about water. It doesn't like to be too dry or too wet, so make sure not to let your pot dry out because if you do, your basil may be toast. To know if you should add water to your pot, stick your finger down into the soil about up to the second knuckle. If the soil feels dryish, add water.\n\n\nMix in an organic fertilizer to the potting soil when you plant. Before you do this, make sure to read the label on your potting soil to make sure that it doesn't have fertilizer already in it. Add add a diluted liquid fertilizer ever couple of weeks.\n \n\nSource: https://www.thespruce.com/growing-basil-in-containers-848215";
+
+/*  */
+"fresas_descripcion" = "Growing strawberries in containers, garden pots or hanging baskets is easy and delicious. There really is nothing like the taste of a fresh-picked strawberry still warm from the sun - it's like a mouthful of magic. Strawberries are also beautiful—a great example of a plant that is as ornamental as it is edible.\n\n\nHere's what you need to know to get started growing strawberries in pots\n\n\nChoosing a Pot – Strawberry pots (usually tall pots that have pockets) are, not surprisingly, perfect for growing strawberries.\n\n\nYou can fit several plants in one pot. A strawberry pot is a particularly great way to grow strawberries if space is a consideration. Strawberries also look lovely in hanging baskets or ceramic pots. Whatever type of garden pot you use, make sure that it has good drainage.\n\n\nChoosing Strawberry Plants – There are four different types of strawberry plants, June bearing, everbearing, day neutral and alpine. Alpine, day neutral and ever-bearing provide a longer harvest season. The alpines and day neutral are particularly lovely to look at - bearing small, bright red, tasty berries all season long. Even if your strawberries are in pots, some plants will spread even beyond the pot, so if you don't want strawberries to spread into your lawn or garden beds, make sure to prune and plants that are getting out of hand.\n\n\nPlanting Strawberries in Pots – In early spring, fill your container with a good quality potting soil, adding a slow-release fertilizer, (first check if the potting mix has it already mixed in).\n\n\nPlant your strawberries just deep enough so that the soil level of the nursery pot is at the same level as your potting soil. Be careful not to put soil over the crown of your plant (which is where the plant meets the soil).\n\n\nCaring for Strawberries – Most strawberry plants will produce most fruit if they are in full sun, though some varieties of alpines and day neutral strawberries will tolerate part shade.\n\n\nAll strawberries need consistent water to thrive. Keep the soil moist, not wet. If possible, water in the morning or during the day, not in the evening, to prevent disease. Always test your soil for moisture before watering by sticking your finger in up to the second knuckle. If the soil feels dry, add water. Fertilize with a diluted liquid fertilizer every other week. Try an organic fish emulsion, seaweed combination.\n\n\nOverwintering Strawberry Pots – If you live in a cold weather zone, move your strawberry containers into a protected area – preferably from 30-40°F. Check plants weekly, giving them just enough water so they don't dry out completely. Place them outside in the spring.\n\n\nSource: https://www.thespruce.com/growing-strawberries-in-pots-848167";
+
+/*  */
+"menta_descripcion" = "Mint is really the perfect place to begin as you build your herb garden. It's easy to grow and is really fun to add to many recipes, whether breakfast, dinner or desert. And don't forget to add a sprig to a glass of iced tea on a hot summer afternoon.\n\n\nAlthough mint is easy to grow, its roots, which are called \"runners,\" are also incredibly invasive: they quickly grow, sprouting new leaves and new plants as they go. Mint will overtake a flower bed or garden in no time if you're not careful. So, read on for the Dos and Don'ts of Growing Mint:\n\n\n\n<b>DO</b>\n\n\n\nWhen choosing a location for your mint, find one where the plant will receive morning sun and partial afternoon shade.\n\n\nPlant on a patio, in a container.\n\n\nWhen planting the herb in a flower bed, first submerge a container (either a pot, a mesh bag or edging to at least 5 inches deep), leaving the rim above ground level when potted, so the mint's fast-growing root system will be contained. Otherwise, the herb will take over your garden and lawn in an annoying weed-like fashion.\n\n\nHarvest mint sprigs before the plant flowers.\n\n\nTo extend the harvesting season, pinch off the flowering buds as they appear.\n\n\nIf planting your mint in a garden bed, apply mulch to help keep it from spreading.\n\n\nLocate mint plants fifteen inches apart, and thin them regularly.\n\n\nIf planting your mint indoors, locate your container where it will receive good morning light but where it will also be away from drying heating elements.\n\n\n<b>DON'T</b>\n\n\nPlant mint in an open bed without first submerging a vessel that will contain the herb's wild-growing roots.\n\n\nIf planting mint in a bed using a submerged pot, be sure it's not cracked. The \"runners\" will find their way out and continue to spread.\n\n\nPlant the herb in super moist conditions where it won't dry out.\n        \n\nSource: http://www.apartmenttherapy.com/the-dos-donts-of-growing-mint-147458";
+
+/*  */
+"perejil_descripcion" = "Parsley (Umbelliferae) is a versatile herb. It is incorporated into many different cooking styles and cuisines. Similar to what salt does to a dish, parsley ties a meal's flavors together. From a vegetable omelet, to tabbouleh salad, to chimichurri sauce on a grilled steak, parsley adds a bright, high note to almost anything I'm making.\n\n\nAside from its deliciousness, parsley is a powerhouse of nutrients. Did you know that parsley actually has more vitamin C in it than an orange? Try adding several leaves and stalks to your morning juicing blend.\n\n\n<b>How to Cultivate Parsley</b>\n\n\nSoil: Plant parsley in moist, loamy, well-turned soil. Incorporate rich compost early in the growing season, just as you're planting your parsley.\n\n\nSun: Parsley does well in both full-sun and part-sun environments. If you're planting parsley indoors, be sure to grow it near a sunny window.\n\n\nWater: Although parsley grows its best in moist soil, it is relatively drought-tolerant. Translation? Parsley is pretty adaptable.\n\n\nSpacing: If you're starting parsley from seed, thin to 9\" apart. If you're transplanting seedlings or small plants, go ahead and space 9\" apart, as well.\n\n\nCompanion planting: Plant parsley next to tomatoes, corn, and asparagus. If you have roses in your garden, planting parsley nearby enhances the health and aroma of your roses.\n\n\nSource: http://www.thekitchn.com/everything-you-need-to-know-about-growing-parsley-221274";
+
+/*  */
+"romero_descripcion" = "Rosemary (Rosmarinus officinalis) is a savory kitchen herb with a pungent flavor and attractive, needle-like leaves. Growing rosemary in pots is surprisingly simple and you can use the herb to add flavor and variety to a number of culinary dishes. Read on for tips about growing potted rosemary herbs.\n\n\nCaring for rosemary grown in containers is easy enough. Proper watering is the key to growing potted rosemary herbs, and the best way to determine if the plant needs water is to insert your finger into the soil. If the top 1 to 2 inches of soil feels dry, it's time to water. Water the plant deeply, then let the pot drain freely and never let the pot stand in water. Use care, as overwatering is the most common reason rosemary plants don't survive in containers.\n        \n\nRosemary in pots generally doesn't require fertilizer, but you can use a dry fertilizer or a dilute solution of a water-soluble liquid fertilizer if the plant looks pale green or growth is stunted. Again, use care, as too much fertilizer may damage the plant. Too little fertilizer is always better than too much. Always water the rosemary immediately after applying fertilizer. Be sure to apply fertilizer to the potting soil – not the leaves.\n        \n\nKeeping a rosemary plant alive during the winter can be tricky. If you decide to bring your plant indoors during the winter, it will need a bright location. A sunny windowsill is a good place as long as the plant won't be chilled by cold air.\n        \n\nBe sure the plant has good air circulation and that it isn't crowded with other plants. Be careful not to overwater.\n\n\nSource: https://www.gardeningknowhow.com/edible/herbs/rosemary/rosemary-grown-in-containers.htm";
+
+/*  */
+"cilantro_descripcion" = "Coriander is a versatile herb popular in Asian cooking including curries, Chinese and Thai dishes. Both the seeds and the leaves of the plant can be used, and offer two distinct flavours. The seeds have a slight lemony flavour; they are often ground and used as a spice. The leaves (also known as cilantro) have a slightly bitter taste and can be chopped up and added to dishes and breads or used as a garnish.\n\n\nGermination of coriander takes up to 3 weeks. Thin young plants to 20cm apart to allow them to grow to their full size. Water them in dry periods and ensure the soil never dries out. If flowers develop remove them immediately – this ensures the plants focus their energy on growing new leaves. Re-sow coriander every three weeks to ensure you have a continual supply during the summer. It is not normally necessary to feed coriander if the soil is well nourished. However, if the plants appear to be suffering give them a liquid organic feed to perk them up.\n        \n\nCoriander does well in containers and can be grown on a sunny windowsill or balcony. The container must be quite deep as coriander has a long taproot. Scatter seeds on the surface of the compost and cover with soil, watering well. Care for the plants as you would if they were in the ground; you may need to water them more often as pots dry quickly.\n\n\nHarvest the leaves when the plant is big and robust enough to cope. Pluck or cut each leaf off the stem or snip whole stems if necessary. Both the leaves and the stalks can be used.\n\n\nIf you are growing coriander for its seeds, wait until the flowers have died off before harvesting. Cut the stems and place the heads of the coriander in a paper bag, with the stems slicking out. Tie the stems and the bag together in a bunch and hang upside down in a cool, dry place. Wait for three weeks and then shake the bag. The dry seeds will fall out from the flowers and be ready in the bottom of the bag. Keep them in a dry place and re-sow the following spring.\n\n\nCoriander is a tasty herb to grow, both for its leaves and seeds. If you re-sow seeds every three weeks you can have lush coriander leaves throughout the summer to add to salads and Asian dishes.\n\n\nSource: http://www.herbexpert.co.uk/growingcoriander.html";
+
+/*  */
+"oregano_descripcion" = "I think the Greeks got it right when they described oregano as \"joy of the mountain.\" This aromatic, ancient culinary herb, also referred to as \"wild marjoram,\" originates from the hilly, Greek countryside, and is now grown all over the world.\n\n\nOregano is a must-have in a culinary garden. Its pungent, spicy, slightly bitter flavor pairs well with almost any vegetable preparation. And just as easy to grow as chives, oregano is another go-to for the first-time gardener.\n\n\n<b>How to Cultivate Oregano</b>\n        \n\nSoil: Plant oregano in light, well-drained soil. Oregano actually grows better in moderately fertile soil, so no fertilization or addition of compost is necessary. I let my oregano do what it does on its own. My only complaint might be that I can't keep up with the harvest!\n\n\nSun: Oregano performs well in part to full sun, but the flavors intensify when it receives a full day of sunshine. Oregano will grow well indoors, but it is important that the plant receives adequate heat and sunshine in order to grow.\n\n\nWater: Don't overwater oregano. Water thoroughly, only when the soil is dry to the touch.\n\n\nSpacing: Plant oregano eight to 10 inches apart in your garden. Oregano grows up to two feet tall and spans about 18 inches across. If you are planting oregano in a container, be sure the pot is about 12 inches in diameter; oregano is a prolific grower. If you're limited on space, read this post on creating a small-space kitchen herb garden.\n\n\nCompanion planting: Oregano is a great companion plant to almost anything, so don't worry about planting it next to something it won't get along with. I plant oregano alongside my tomatoes and peppers. Oregano keeps away a tomato's archenemy, aphids, by means of predation. Aphids actually love oregano, but oregano also attracts syrphidae (flower flies), which then dine upon the small bugs. Oregano's thick foliage also provides humidity, which supports peppers' growth.\n        \n\n<b>How to Harvest Oregano</b>\n\n\nHarvesting oregano couldn't be simpler. You may harvest oregano once the stems are at least four inches tall. I tend to let mine grow to about eight inches tall, and then I cut back up to 2/3 of the plant. Reference the photo above and cut just above the leaves. And don't worry if you think you've cut back your oregano too much — regular trimming encourages new growth and prevents \"legginess.\"\n\n\n\nTip: Want to know the easiest way to harvest oregano? If you won't be drying your oregano by the bunch, and you only need the leaves, simply grab the stem about 2/3 down the length of the plant and run your fingers along the stem. The leaves will collect in your hand, and then all you'll have to do afterwards is trim the now-leafless stem. Eureka!\n\n\nTo obtain the optimum potency of flavor, harvest oregano leaves just before the plant flowers, if you can time it perfectly. Even the subtly flavored flowers are great topped on salads. Otherwise, either clip as needed or, as I do, trim your oregano plants all at once and turn on the dehydrator. More on what to do with your oregano when we discuss the best way to preserve your harvest in tomorrow's post.\n\n\nSource: http://www.thekitchn.com/everything-you-need-to-know-about-growing-oregano-220612";
+
+/*  */
+"coles_bruselas_descripcion" = "Brussels sprouts (Brassica oleracea var. gemmifera) resemble baby cabbages, all lined up in neat rows on the tall stalks. These plants naturally grow vertically without support, making them a suitable addition to a space-saving container garden. Brussels sprouts grow best in cool weather, and they may fail to form sprouts if it's too hot. They take about 90 days to produce sprouts, so gardeners often plant them in early summer for a fall crop or in early spring so they can mature before the heat of summer.\n\n\nFill a 12-inch diameter, 12-inch deep pot with potting soil. Mix 1 1/2 tablespoons of 14-14-14 slow-release fertilizer into the potting mix. Water the soil until the excess moisture begins to drain from the bottom of the pot.\n\n\nPlant one brussels sprout seedling in the pot, setting it at the same depth it was growing at in its previous container. Place the pot in a location that receives full, all-day sunlight immediately after planting.\n\n\nFeel the soil in the container at least once a day. Water when the top 1 inch of soil feels dry. Soil dries out more quickly in a container, and brussels sprouts may require daily watering during hot or dry weather.\n\n\nDissolve 1 tablespoon of 15-30-15 soluble fertilizer in 1 gallon of water. Water the brussels sprouts with the solution every two weeks, beginning about six weeks after transplanting. Frequent watering leaches fertilizer from the container, so regular reapplications ensure the plant gets the necessary nutrients to produce well.\n\n\nPull off the bottom six to eight leaves on the plant's stalk when it begins to develop sprouts, which allows the plant to focus more energy on sprout development. Cut off the top of the stalk, below the growing point near the tip, when the sprouts are forming but about half their mature size.\n\n\nTwist the brusssels sprouts from the main stalk when they reach their mature size of 1 to 2 inches in diameter. Harvest from the bottom of the stalk and work up as the sprouts mature. Lower sprouts mature earlier than the top ones.\n        \n\nSource: http://homeguides.sfgate.com/grow-brussels-sprouts-containers-79014.html";
+
+/*  */
+"internet" = "ERROR: Check your internet connection!";
+
+/*  */
+"select_hemisphere" = "Select your hemisphere";
+
+/*  */
+"pref_example_list_hemispheres[0]" = "North";
+
+/*  */
+"pref_example_list_hemispheres[1]" = "South";
+
+/*  */
+"perejil" = "Parsley";
+
+/*  */
+"albahaca" = "Basil";
+
+/*  */
+"romero" = "Rosemary";
+
+/*  */
+"fresa" = "Strawberry";
+
+/*  */
+"oregano" = "Oregano";
+
+/*  */
+"menta" = "Mint";
+
+/*  */
+"cilantro" = "Coriander";
+
+/*  */
+"companion_vegetables" = "Companion planting vegetables";
+
+/*  */
+"antagonist_vegetables" = "Antagonist planting vegetables";
+
+/*  */
+"col_bruselas" = "Brussels sprouts";
+
+/*  */
+"error_image" = "Error compressing image";
+
+/*  */
+"compost_description" = "It's easy to cook up your own compost. Just layer organic materials—garden clippings, dry leaves, kitchen vegetable scraps, shredded paper—and a dash of soil to create a concoction that turns into humus, the best soil builder around.\n    \n\nTo create your own organic hot-compost heap, wait until you have enough materials to make a pile at least 3 feet deep. Then, to ensure an even composition of materials, create alternating 4- to 8-inch-deep layers of green materials (kitchen scraps, fresh leaves, coffee grounds) and brown materials (dried leaves, shredded paper, untreated sawdust).\n        \n\nSprinkle water over the pile regularly so it has the consistency of a damp sponge. Don't add too much water—otherwise the microorganisms in your pile will become waterlogged and drown. If this happens, your pile will rot instead of compost.\n        \n\nCheck to see if your pile is decomposing by monitoring temperature. Check the temperature of the pile with a thermometer, or simply reach into the middle of the pile with your hand.\n    \n\nDuring the growing season, you should provide the pile with oxygen by turning it once a week with a garden fork. The best time to turn the compost is when the center of the pile feels warm or the thermometer reads between 130 and 150 degrees Fahrenheit. Stirring up the pile helps it cook faster and prevents material from becoming matted down and developing a bad odor. At this point, the layers have served their purpose of creating equal amounts of green and brown materials throughout the pile, so stir thoroughly.\n        \n\nWhen the compost no longer gives off heat and becomes dry, brown, and crumbly, it's fully cooked and ready to feed to the garden.\n        \n\nThese are a list of materials that you can use into your compost pile:";
+
+/*  */
+"search" = "Search";
+
+/*  */
+"remedios" = "Organic remedies";
+
+/*  */
+"usages" = "Usages";
+
+/*  */
+"how_to_prepare_it" = "How to prepare it";
+
+/*  */
+"te_platano" = "Banana tea";
+
+/*  */
+"te_platano_prep" = "Boil 4 well–ripened skins in 1L of water for 10–15 minutes.";
+
+/*  */
+"te_platano_uso" = "Contributes to the flowering and fruiting of the plant. Apply to plants diluted in water, at a rate of 1 liter of tea with 2 liters of water.";
+
+/*  */
+"infusion_ajo" = "Garlic infusion";
+
+/*  */
+"infusion_ajo_prep" = "Chop 15 grs. of garlic and 10 grs. of soap in 1 liters of water. Mix well and filter.";
+
+/*  */
+"infusion_ajo_uso" = "You can use it as a repellent and insecticide for most insects. It should be applied at sunrise or sunset, we will do it for about 5 days.";
+
+/*  */
+"cascara_huevo" = "Eggshells";
+
+/*  */
+"cascara_huevo_prep" = "Dry a few egg shells, then crush until small pieces remain.";
+
+/*  */
+"cascara_huevo_uso" = "Good fertilizer for the soil and also a repellent for snails and some caterpillars. Spray the dust at the base of the plants.";
+
+/*  */
+"ortiga" = "Nettle Purin";
+
+/*  */
+"ortiga_prep" = "Mix 100 grams of nettle with 10 liters of water, let stand 4 days and be ready to use.";
+
+/*  */
+"ortiga_uso" = "Excellent pesticide for aphids and fertilizer for the soil. Spray on plants.";
+
+/*  */
+"fungicida" = "Fungicide with milk";
+
+/*  */
+"fungicida_prep" = "Mix 8 parts water with 2 parts milk and 1 teaspoon baking soda.";
+
+/*  */
+"fungicida_uso" = "Powerful fungicide against fungi such as mildew, powdery mildew, rust or brotytis. Apply spraying on plants without overextending.";
+
+/*  */
+"enrizante" = "Lentil rooting";
+
+/*  */
+"enrizante_prep" = "Put in a container a part of lentils four parts water for three or four days. When the lentils are germinated, crush everything and filter the skins.";
+
+/*  */
+"enrizante_uso" = "It is used as normal watering for cuttings that we have in pot, and if the cutting we have in water, we will change the mixture every day, and we will use it only during the first week. It is stored in the refrigerator and lasts for about 15 days.";
+
+/*  */
+"patata" = "Potato";
+
+/*  */
+"puerro" = "Leek";
+
+/*  */
+"rucula" = "Arugula";
+
+/*  */
+"habas" = "Beans";
+
+/*  */
+"rucula_desc" = "Growing arugula is incredibly easy to grow and is one of the spiciest and most delicious greens available. A huge bonus is that arugula flowers are stunningly beautiful and one of the best tasting edible flowers out there.\n\n\nChoosing a container - Since the roots of arugula are relatively shallow, you don't need a giant, or particularly deep container. However, you'll want to plant a fair amount of arugula, because once you get a taste for it, you might find you're eating a lot of it.\n        \n\nThough you can grow arugula in almost anything, a self-watering container works particularly well.\n        \n\nPlanting Arugula - Like most salad greens, arugula seeds are tiny, so you have to be careful not to plant them too deep. Fill your garden pot up with potting mix, then gently flatten it out with your hand. Then distribute the seeds as uniformly as possible onto the potting mix. Take your palm and gently pat the seeds onto the soil. You can then cover them lightly with potting soil, or put a thin layer of seed starting mix over the seeds, gently patting again. Add water very carefully, either using a rose attachment, or a gentle spray from the hose. You don't want the water pressure or weight of the water to disturb your seeds, and drive them too deeply into the soil. Plant your pot in full sun, or for a longer season, give arugula mid day shade.\n        \n\nGrowing Arugula - Arugula doesn't love hot weather and gets quite bitter if grown when it's steaming hot outside.\n        \n\nStart arugula seeds as soon as danger of frost is over. Also, this is a great plant to sow once a week or every two weeks to keep a constant supply. Keep the soil evenly moist until seedlings emerge, which will take from 7 to 14 days. When the seedlings are about an inch or two tall, thin seedlings so they are one to three inches apart.\n        \n\nThese young leaves are some of the tenderest and most delicious, so add them to your salad. However, sometimes even if you don't bother thinning too much, the plants will grow ok even if they are bunched together.\n        \n\nHarvesting Arugula - Your arugula should be full grown and ready to harvest in about three to four weeks. The younger the leaves, the more tender and sweet they will be, so don't wait too long to start picking them. Once the seedlings are 3 to 4 inches long you can either pull out the whole plant or, if you want the plants to continue to grow, you can collect just the leaves by cutting or tearing them off towards their base. Beware if you pull out the plants as the dirt can get on the leaves. For clean leaves cut them and you won't have too much washing to do—just a rinse and they will be ready to go.\n\n\nSource: https://www.thespruce.com/growing-arugula-in-garden-pots-848160";
+
+/*  */
+"puerro_desc" = "Leeks are members of the allium family of onions, in company with such vegetables as scallions, chives and green garlic. Leeks are an excellent choice for container gardening, and the sweet, mild flavor develops as well in containers as in a traditional garden. Create a successful crop of leeks from your container garden and enjoy fresh fall soups or add a hint of sweet flavor to fresh salads and other dishes.\n        \n\n<b>Starting Seeds</b>\n\n\n1. Start your leeks from seed 8 to 10 weeks before the last expected frost, typically mid to late fall. Fill a container at least six inches deep with a lightly acidic soil. Leeks thrive in soil with a pH of 6.0 to 6.8.\n\n\n2. Plant the seeds approximately 1/2-inch deep in the container. Keep the soil moist, watering the seeds regularly to keep the soil from drying out. Place your seedling container in an area with full sun, or at least eight hours of sunlight per day.\n\n\n3.  When the seedlings reach three inches tall, thin them out by pulling some seedlings out of the container until the remaining plants are an inch apart. Prepare your primary container when the seedlings reach six inches high. If you prefer to purchase leek seedlings, select seedlings that are at least six inches high when you are ready to plant.\n\n\n<b>Transplanting Seedlings</b>\n\n\n1. Transplant your seedlings to an outdoor container at least 10 inches deep when the overall temperatures average 50 degrees Fahrenheit during the day. Fill the container with an even mixture of 10-10-10 fertilizer and potting soil. Create six-inch deep spaces with a chopstick or similar tool. Place the seedlings six inches apart with 12 inches between the rows.\n\n\n2. Fill the holes and the areas around the seedlings with the soil mixture, smoothing the surface. Water the plants well once a week to keep the soil moist, but do not over water them. Keep the container in an area where the leeks will get full sun, or direct sunlight at least eight hours each day.\n\n\n3. Weed around the plants regularly, using caution not to disturb the growing leeks. Leeks are prone to being overtaken by weeds in the early stages, so careful weeding can ensure that the plants thrive.\n\n\n4. Mound the soil around the base of the leeks as they grow to lengthen the white stem portion of the plant.\n\n\n<b>Harvesting Leeks</b>\n\n\n1. Harvest young leeks as soon as they are large enough for your purposes, typically two to three months after you transplant them.\n\n\n2. Loosen the soil around the base of the leeks with a garden rake before you harvest them, to make it easier to pull them free of the soil without breakage.\n\n\n3. Harvest any overwintered leeks before the flower stalk is visible. Once the flower stalk appears, the leeks become tough, stringy and unappealing.\n   \n\nFuente: http://homeguides.sfgate.com/grow-leeks-containers-20974.html";
+
+/*  */
+"habas_desc" = "Broad Beans can easily be grown in containers. Dwarf varieties such as Broad Bean ‘The Sutton' are ideal for growing on the patio. They have deep root systems so choose a deep container to accommodate them and be sure to keep them well watered throughout the growing season.\n        \n\nMany gardeners choose to direct sow broad bean seed either under cloches in late autumn or February, or without protection from March to April. Grow Broad beans in full sun on rich fertile, well-manured soil. Choose a sheltered position away from strong winds.\n\n\nPlant broad beans in double rows, set out at 23cm (9\") apart. Staggering these rows will help you make the most of the available space. You will need to allow at least 60cm (24\") between each set of double rows in order to access you crops.\n\n\nSow broad beans at a depth of 5cm (2\") deep and a distance of 23cm (9\") apart within each row and water well. Germination usually takes around 10 days.\n\n\nBroad Beans can be harvested and cooked as entire pods while they are immature at around 7.5cm (3\") long. However they are more usually harvested a little later than this, when the pods are well filled and the seed still soft. They can then be shelled and eaten as individual beans.\n\n\nSource: https://www.thompson-morgan.com/how-to-grow-broad-beans";
+
+/*  */
+"patata_desc" = "Any container will do, from an old potato sack to big terracotta pot, but you want something sturdy. I have heard of bin bags being used successfully but ideally go for something a little more solid, as it will need to put up with some handling during growing time. It should also be as large a container as you can drum up: little pots will dry out much faster than big ones.\n        \n\nStart with a little compost in the base of your container, about 6-7in (15-17cm). I use spent compost from the previous year's pots of annuals. This is perfect as long as you remember that it doesn't contain any nutrients, and feed accordingly.\n\n\nAlthough you can grow any potatoes in pots, first and second earliest work best as they grow quickly and you can get them up and out of the pot by early summer, freeing up the pot for something else. Maincrop potatoes will work but they will be in the pots for a long time, requiring watering and attention all the while, and the results will be no different to those you could grow in the ground.\n\n\nWhichever your choice, place no more than three tubers into a 40L container and cover with a few inches of compost. A handful of organic slug pellets wouldn't hurt and you might also keep some horticultural fleece handy, should cold nights threaten.\n\n\nThe potatoes will need lots of water, regularly, to get off to a flying start. The green shoots will eventually poke up through the compost, and when they do, cover them with another layer of compost, water and feed, add compost, on and on, until you reach the top of the pot or bag.\n\n\nIn the ground, first earliest will take around 14 weeks to mature, second earliest around 16 weeks, but in warm containers you can knock a couple of weeks off that, particularly if you like to eat them tiny and tender. New potatoes are at their best eaten immediately, so pull out only what you want for one meal, leaving the rest to grow on. Rinse them off and throw them into a pan of boiling water and you may well decide to forsake your rows of maincrop spuds for a few pots of precious baby potatoes every year.\n\n\nSource: http://www.telegraph.co.uk/gardening/howtogrow/fruitandvegetables/11422293/How-to-grow-potatoes-in-pots.html";
+
+/*  */
+"arandanos" = "Blueberries";
+
+/*  */
+"arandanos_desc" = "Blueberries are acid freaks—most need soil with a pH of 4.5 to 5.5 to thrive and produce berries. Most garden soil does not come close to these levels, and therein lies one of the main advantages to growing blueberries in containers. You can easily buy or create an acidic blueberry-friendly potting soil and your plants will thrive.\n        \n\nIf you've grown other fruit-bearing plants, you know that you're in it for the long haul. Your plants can happily produce fruit for years with very little care, but you'll want to start them off right. That means putting them in the largest pot that you can—at least 18 inches deep. Half-barrels and other deep, wide containers work well for the long-term.\n        \n\nFill your pot 2/3 full of your regular potting mix and the top third with a potting mix designed for acid-loving plants, like rhododendrons, azaleas, and camellias. You can find this at any nursery or garden center, and even in the houseplants section of some home centers. If you can't find a high-acid potting soil, you can mix in a fertilizer for acid-loving plants into your soil. I use Holly-Tone, by Epsoma.\n        \n\nBlueberries need full sun, as in a full 6 to 8 hours per day. In my experience, people often overestimate how much sun an area gets, so unless you are absolutely positive about it, take the time to accurately measure how much sun your plants are getting. Use a sun calculator, or simply use a watch and time the hours of full-sun exposure on a typical day during the growing season. On the flip side, If you live in an area that gets very hot afternoon sun, the plants can overheat, so watch out for this.\n        \n\nBlueberries need lots of water, but they also like sandy, well-draining soil. In other words, they don't like to be sitting in water, so try to keep the soil consistently moist, not soggy. When it rains, don't assume that you don't have to water. The leaves of the blueberry plant can act like an umbrella, shedding the water so that it misses the container completely. Always check the soil with your finger to see if it's wet below the surface. If you have to leave your blueberry plant and can't water it, make sure to move it to the shade to conserve water. It's also helpful to add a layer of compost with a topdressing of pine bark to help conserve water.\n        \n\nBlueberries don't like too much fertilizer. Twice a year in the early spring works well. For organic fertilizer, try blood or cottonseed meal or an organic fertilizer designed for ​acid-loving plants. Don't just fertilize and forget, however. Test the soil's pH regularly to keep the soil in the sweet spot for acid. Because acid washes out of soil over time, you might find that it's more effective to start with a half-dose of fertilizer in the spring, then add a light monthly dose throughout the season. Your soil tests should tell you what's best.\n        \n\nSource: https://www.thespruce.com/growing-blueberries-in-containers-848170";
+
+/*  */
+"frambuesas" = "Raspberry";
+
+/*  */
+"frambuesas_desc" = "Some raspberry varieties grow too large to easily grow in containers, but newer types, such as 'Heritage' or 'Raspberry Shortcake', a dwarf, thornless variety, are well suited to growing in large pots. If you choose another variety, be sure it is a fall-bearing type.\n        \n\nPlanting tips: Plant in a container that is at least 24-36 inches wide and deep. Half-barrels or five-gallon pots are ideal sizes that allow enough room for new canes to grow in future years. Start with 3-6 canes, depending on the size of the container.\n        \n\nSoil and fertilizer: Use a soilless potting mix for container raspberries. Add a balanced 10-10-10 timed-release fertilizer at planting time.\n        \n\nPruning and other care: Raspberries are perennials that usually set fruit on two-year-old canes. You might get some berries the first year you plant them but full bearing begins in year two. New green sprouts will grow to become fruiting canes for the following year. Prune all dead canes—ones with no new growth—at ground level.\n        \n\nWinter care: In regions with harsh winters, move the raspberry pots to an unheated garage, allowing the plants to go dormant but watering just enough to keep them alive. Return the pot to a sunny location after danger of frost passes. If you choose to leave the pot in place, insulate it with mulch for winter protection. Avoid using ceramic or terra-cotta pots outdoors year-round in cold climates as freeze-thaw cycles can crack those containers.\n        \n\nSource: https://www.bhg.com/gardening/container/plans-ideas/berries-in-containers/";
+

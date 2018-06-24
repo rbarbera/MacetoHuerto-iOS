@@ -48,9 +48,6 @@ class ChatTableViewCell: UITableViewCell {
         return label
     }()
     
-    
-    
-    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -70,7 +67,7 @@ class ChatTableViewCell: UITableViewCell {
             plantImageView.leftAnchor.constraint(equalTo: self.contentView.leftAnchor, constant: 16.0),
             plantImageView.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -16.0),
             plantImageView.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 16.0),
-            plantImageView.bottomAnchor.constraint(equalTo: authorLabel.topAnchor, constant: -16.0)
+            plantImageView.bottomAnchor.constraint(equalTo: authorLabel.topAnchor, constant: -16.0),
             ])
 
         NSLayoutConstraint.activate([
@@ -109,38 +106,13 @@ class ChatTableViewCell: UITableViewCell {
 
 extension UIImageView {
     func downloadedFrom(url: URL, contentMode mode: UIViewContentMode = .scaleAspectFit) {
-        contentMode = mode
-        URLSession.shared.dataTask(with: url) { data, response, error in
-            guard
-                let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,
-                let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
-                let data = data, error == nil,
-                let image = UIImage(data: data)
-                else { return }
-            DispatchQueue.main.async() {
-                let screenSize = UIScreen.main.bounds
-                let screenWidth = screenSize.width
-                self.image = self.imageWithImage(sourceImage: image, scaledToWidth: screenWidth - 32)
-            }
-            }.resume()
+        if let data = try? Data(contentsOf: url) {
+            self.image = UIImage(data: data)
+        }
     }
     func downloadedFrom(link: String, contentMode mode: UIViewContentMode = .scaleAspectFit) {
         guard let url = URL(string: link) else { return }
         downloadedFrom(url: url, contentMode: mode)
-    }
-    
-    func imageWithImage (sourceImage:UIImage, scaledToWidth: CGFloat) -> UIImage {
-        let oldWidth = sourceImage.size.width
-        let scaleFactor = scaledToWidth / oldWidth
-        
-        let newHeight = sourceImage.size.height * scaleFactor
-        let newWidth = oldWidth * scaleFactor
-        
-        UIGraphicsBeginImageContext(CGSize(width:newWidth, height:newHeight))
-        sourceImage.draw(in: CGRect(x:0, y:0, width:newWidth, height:newHeight))
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return newImage!
     }
 }
 

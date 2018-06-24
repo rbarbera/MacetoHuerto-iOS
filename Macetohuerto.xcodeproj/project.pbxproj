@@ -13,6 +13,7 @@
 		C640A80420DD88ED005A886B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C640A80320DD88ED005A886B /* GoogleService-Info.plist */; };
 		C640A80620DE3BD6005A886B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640A80520DE3BD6005A886B /* ChatViewController.swift */; };
 		C640A80820DE8685005A886B /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640A80720DE8685005A886B /* ChatTableViewCell.swift */; };
+		C640A80B20DEF7F7005A886B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C640A80920DEF7F7005A886B /* Localizable.strings */; };
 		C69D16B320D5B7A400F9A5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D16B220D5B7A400F9A5C5 /* AppDelegate.swift */; };
 		C69D16B520D5B7A400F9A5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D16B420D5B7A400F9A5C5 /* ViewController.swift */; };
 		C69D16B820D5B7A400F9A5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69D16B620D5B7A400F9A5C5 /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 		C640A80320DD88ED005A886B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C640A80520DE3BD6005A886B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C640A80720DE8685005A886B /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		C640A80A20DEF7F7005A886B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C640A80C20DEF809005A886B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C69D16AF20D5B7A400F9A5C5 /* Macetohuerto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macetohuerto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69D16B220D5B7A400F9A5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69D16B420D5B7A400F9A5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 				C69D16B920D5B7A400F9A5C5 /* Assets.xcassets */,
 				C69D16BB20D5B7A400F9A5C5 /* LaunchScreen.storyboard */,
 				C69D16BE20D5B7A400F9A5C5 /* Info.plist */,
+				C640A80920DEF7F7005A886B /* Localizable.strings */,
 			);
 			path = Macetohuerto;
 			sourceTree = "<group>";
@@ -134,6 +138,7 @@
 				C69D16AC20D5B7A400F9A5C5 /* Frameworks */,
 				C69D16AD20D5B7A400F9A5C5 /* Resources */,
 				CD1E309B96013AC3EA11484F /* [CP] Embed Pods Frameworks */,
+				998A8809D9B2B55689589DF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C69D16C520D6F5F700F9A5C5 /* plants.json in Resources */,
+				C640A80B20DEF7F7005A886B /* Localizable.strings in Resources */,
 				C69D16BD20D5B7A400F9A5C5 /* LaunchScreen.storyboard in Resources */,
 				C640A80420DD88ED005A886B /* GoogleService-Info.plist in Resources */,
 				C69D16BA20D5B7A400F9A5C5 /* Assets.xcassets in Resources */,
@@ -194,6 +200,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		998A8809D9B2B55689589DF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Macetohuerto/Pods-Macetohuerto-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macetohuerto/Pods-Macetohuerto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CD1E309B96013AC3EA11484F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,15 +239,41 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Macetohuerto/Pods-Macetohuerto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -255,6 +319,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C640A80920DEF7F7005A886B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C640A80A20DEF7F7005A886B /* Base */,
+				C640A80C20DEF809005A886B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C69D16B620D5B7A400F9A5C5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -13,12 +13,19 @@ class TabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         self.view.backgroundColor = .white
-        let downloadViewController = ViewController()
-        downloadViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 0)
-        let bookmarkViewController = ChatViewController()
-        bookmarkViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 1)
-       
-        let viewControllerList = [ downloadViewController, bookmarkViewController ]
+        let planner = ViewController()
+        planner.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 0)
+        planner.tabBarItem.title = "Planner"
+        let chat = ChatViewController()
+        chat.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
+        chat.tabBarItem.title = "Doubts chat"
+        let viewControllerList = [ planner, chat ]
         viewControllers = viewControllerList.map { UINavigationController(rootViewController: $0) }
+    }
+}
+
+extension String {
+    var localized: String {
+        return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
     }
 }
