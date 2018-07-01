@@ -8,14 +8,41 @@
 
 import UIKit
 
-struct Vegetables: Decodable {
+public struct Vegetables: Decodable {
     var vegetables: [Vegetable]
+    public func companionVegetables(vegetable: Vegetable) -> [Vegetable]{
+        var result = [Vegetable]()
+        for identifier in vegetable.companions {
+            for possibleMatch in vegetables {
+                if possibleMatch.identifier == identifier {
+                    result.append(possibleMatch)
+                    break
+                }
+            }
+        }
+        return result
+    }
+    
+    public func antagonistVegetables(vegetable: Vegetable) -> [Vegetable]{
+        var result = [Vegetable]()
+        for identifier in vegetable.antagonists {
+            for possibleMatch in vegetables {
+                if possibleMatch.identifier == identifier {
+                    result.append(possibleMatch)
+                    break
+                }
+            }
+        }
+        return result
+    }
 }
 
-struct Vegetable: Decodable {
-    let placeholder: String
-    let image: String
+public struct Vegetable: Decodable {
+    let image, desc, identifier, placeholder: String
     let seeds, plants, harvests: [Int]
+    let capacity: Int
+    let water: Double
+    let antagonists, companions: [String]
     
 }
 
@@ -90,6 +117,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        
+        self.tabBarItem.title = "planner"
         self.view.addSubview(actionPicker)
         self.view.addSubview(collectionView)
 
@@ -126,6 +155,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
     {
         print("User tapped on item \(indexPath.row)")
+        let view = DetailsViewController()
+        view.vegetable = visibleVegetables.vegetables[indexPath.row]
+        view.allVegetables = self.allVegetables
+        self.navigationController?.pushViewController(view, animated: true)
+    
     }
 }
 

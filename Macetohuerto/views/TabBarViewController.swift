@@ -14,11 +14,12 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         self.view.backgroundColor = .white
         let planner = ViewController()
-        planner.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 0)
-        planner.tabBarItem.title = "Planner"
+        let plannerTabBarItem: UITabBarItem = UITabBarItem(title: "planificador".localized, image: UIImage(named: "planner")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "planner"))
+        planner.tabBarItem = plannerTabBarItem
         let chat = ChatViewController()
-        chat.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
-        chat.tabBarItem.title = "Doubts chat"
+        let chatTabBarItem: UITabBarItem = UITabBarItem(title: "doubts_chat".localized, image: UIImage(named: "chat")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage(named: "chat"))
+
+        chat.tabBarItem = chatTabBarItem
         let viewControllerList = [ planner, chat ]
         viewControllers = viewControllerList.map { UINavigationController(rootViewController: $0) }
     }

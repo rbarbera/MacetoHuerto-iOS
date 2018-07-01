@@ -64,10 +64,11 @@ class ChatTableViewCell: UITableViewCell {
             ])
         
         NSLayoutConstraint.activate([
-            plantImageView.leftAnchor.constraint(equalTo: self.contentView.leftAnchor, constant: 16.0),
-            plantImageView.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -16.0),
-            plantImageView.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 16.0),
-            plantImageView.bottomAnchor.constraint(equalTo: authorLabel.topAnchor, constant: -16.0),
+            plantImageView.leftAnchor.constraint(equalTo: self.contentView.leftAnchor, constant: 16),
+            plantImageView.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -16),
+            plantImageView.bottomAnchor.constraint(equalTo: authorLabel.topAnchor),
+            plantImageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+            plantImageView.topAnchor.constraint(equalTo: contentView.topAnchor)
             ])
 
         NSLayoutConstraint.activate([
@@ -94,27 +95,50 @@ class ChatTableViewCell: UITableViewCell {
         messageLabel.text = message.text
         authorLabel.text = message.name
         dateLabel.text = message.date
-        plantImageView.image = nil
 
-        if !message.photoUrl.isEmpty {
-            plantImageView.downloadedFrom(link: message.photoUrl)
+        /*if !message.photoUrl.isEmpty {
+            let url = URL(string: message.photoUrl)
+
+            DispatchQueue.global().async {
+                let data = try? Data(contentsOf: url!)
+                DispatchQueue.main.async {
+                    self.plantImageView.image = UIImage(data: data!)
+                }
+            }
+            
         } else {
             plantImageView.image = nil
+        }*/
+    }
+    
+    func getDataFromUrl(url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            completion(data, response, error)
+            }.resume()
+    }
+    
+    func downloadImage(url: URL, imageView: UIImageView) {
+        print("Download Started")
+        getDataFromUrl(url: url) { data, response, error in
+            guard let data = data, error == nil else { return }
+            print(response?.suggestedFilename ?? url.lastPathComponent)
+            print("Download Finished")
+            DispatchQueue.main.async() {
+                imageView.image = UIImage(data: data)
+            }
         }
     }
-}
-
-extension UIImageView {
-    func downloadedFrom(url: URL, contentMode mode: UIViewContentMode = .scaleAspectFit) {
+    
+    func downloadedFrom(url: URL, contentMode mode: UIViewContentMode = .scaleAspectFit) -> UIImage  {
         if let data = try? Data(contentsOf: url) {
-            self.image = UIImage(data: data)
+            return UIImage(data: data)!
         }
+        return UIImage()
     }
-    func downloadedFrom(link: String, contentMode mode: UIViewContentMode = .scaleAspectFit) {
-        guard let url = URL(string: link) else { return }
-        downloadedFrom(url: url, contentMode: mode)
+    func downloadedFrom(link: String, contentMode mode: UIViewContentMode = .scaleAspectFit) -> UIImage {
+        guard let url = URL(string: link) else { return UIImage() }
+        return downloadedFrom(url: url, contentMode: mode)
     }
 }
-
 
 

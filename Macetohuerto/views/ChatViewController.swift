@@ -41,8 +41,8 @@ class ChatViewController: ViewController {
         input.translatesAutoresizingMaskIntoConstraints = false
         input.backgroundColor = .white
         input.layer.borderWidth = 1
-        input.layer.cornerRadius = 10.0
-        input.layer.borderColor = UIColor(red:0/255, green:0/255, blue:0/255, alpha: 1).cgColor
+        /*input.layer.cornerRadius = 10.0
+        input.layer.borderColor = UIColor(red:0/255, green:0/255, blue:0/255, alpha: 1).cgColor*/
         input.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
 
         return input
@@ -93,7 +93,49 @@ class ChatViewController: ViewController {
     private final let perPage: UInt = 50
     var loggedUser: User?
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .white
+
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard (_:)))
+        self.view.addGestureRecognizer(tapGesture)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(ChatViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ChatViewController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        
+    }
+    
+    @objc func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            if self.view.frame.origin.y == 0{
+                self.view.frame.origin.y -= keyboardSize.height
+                self.view.frame.origin.y += 49 //bar
+            }
+        }
+    }
+    
+    func statusBarHeight() -> CGFloat {
+        let statusBarSize = UIApplication.shared.statusBarFrame.size
+        return Swift.min(statusBarSize.width, statusBarSize.height)
+    }
+    
+    @objc func keyboardWillHide(notification: NSNotification) {
+        if self.view.frame.origin.y != 0{
+            self.view.frame.origin.y = 0
+        }
+        
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
+    @objc func dismissKeyboard (_ sender: UITapGestureRecognizer) {
+        inputField.resignFirstResponder()
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         ref = Database.database().reference()
         
         myTableView.dataSource = self
@@ -104,7 +146,6 @@ class ChatViewController: ViewController {
         self.view.addSubview(myTableView)
         self.view.addSubview(inputField)
         self.view.addSubview(sendButton)
-        self.view.backgroundColor = .white
         
         myTableView.translatesAutoresizingMaskIntoConstraints = false
         myTableView.rowHeight = UITableViewAutomaticDimension
@@ -114,21 +155,21 @@ class ChatViewController: ViewController {
         NSLayoutConstraint.activate([
             inputField.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant: 8),
             inputField.rightAnchor.constraint(equalTo: self.sendButton.leftAnchor),
-            inputField.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor),
+            inputField.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
             inputField.topAnchor.constraint(equalTo: self.sendButton.topAnchor)
             ])
         
         NSLayoutConstraint.activate([
             sendButton.leftAnchor.constraint(equalTo: self.inputField.rightAnchor),
             sendButton.rightAnchor.constraint(equalTo: self.view.rightAnchor),
-            sendButton.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor),
+            sendButton.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
             sendButton.widthAnchor.constraint(equalToConstant: 50.0)
             ])
         
         NSLayoutConstraint.activate([
             myTableView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
             myTableView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
-            myTableView.topAnchor.constraint(equalTo: self.view.layoutMarginsGuide.topAnchor),
+            myTableView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
             myTableView.bottomAnchor.constraint(equalTo: self.inputField.topAnchor)
             ])
         
@@ -212,6 +253,14 @@ extension ChatViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: ChatTableViewCell = tableView.dequeueReusableCell(withIdentifier: ChatTableViewCell.reuseIdentifier, for: indexPath) as! ChatTableViewCell
         cell.bind(self.messageList[indexPath.row])
+        if self.messageList[indexPath.row].photoUrl.count > 0 {
+            cell.imageView?.image = UIImage(named: "maceta")
+            cell.imageView?.downloadImageFrom(link: messageList[indexPath.row].photoUrl, contentMode: UIViewContentMode.scaleAspectFit)
+        } else {
+            cell.imageView?.image = nil
+        }
+       
+
         return cell
     }
 }
@@ -221,5 +270,50 @@ extension Date {
         let dateFormatterPrint = DateFormatter()
         dateFormatterPrint.dateFormat = "dd/MM/yyyy HH:mm"
         return dateFormatterPrint.string(from: self)
+    }
+}
+
+extension UIViewController
+{
+    func hideKeyboard()
+    {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(UIViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard()
+    {
+        view.endEditing(true)
+    }
+}
+
+extension ChatViewController {
+    func downloadImage(link: String, imageView: UIImageView) {
+        URLSession.shared.dataTask( with: NSURL(string:link)! as URL, completionHandler: {
+            (data, response, error) -> Void in
+            DispatchQueue.main.async {
+                if let data = data {
+                    imageView.image = UIImage(data: data)
+                }
+            }
+        }).resume()
+    }
+}
+
+extension UIImageView {
+    func downloadImageFrom(link:String, contentMode: UIViewContentMode) {
+        URLSession.shared.dataTask( with: NSURL(string:link)! as URL, completionHandler: {
+            (data, response, error) -> Void in
+            DispatchQueue.main.async {
+                self.contentMode =  contentMode
+                if let data = data {
+                    self.image = UIImage(data: data)
+                    
+                }
+            }
+        }).resume()
     }
 }
