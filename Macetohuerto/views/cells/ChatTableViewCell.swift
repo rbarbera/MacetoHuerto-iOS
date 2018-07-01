@@ -96,48 +96,6 @@ class ChatTableViewCell: UITableViewCell {
         authorLabel.text = message.name
         dateLabel.text = message.date
 
-        /*if !message.photoUrl.isEmpty {
-            let url = URL(string: message.photoUrl)
-
-            DispatchQueue.global().async {
-                let data = try? Data(contentsOf: url!)
-                DispatchQueue.main.async {
-                    self.plantImageView.image = UIImage(data: data!)
-                }
-            }
-            
-        } else {
-            plantImageView.image = nil
-        }*/
-    }
-    
-    func getDataFromUrl(url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
-        URLSession.shared.dataTask(with: url) { data, response, error in
-            completion(data, response, error)
-            }.resume()
-    }
-    
-    func downloadImage(url: URL, imageView: UIImageView) {
-        print("Download Started")
-        getDataFromUrl(url: url) { data, response, error in
-            guard let data = data, error == nil else { return }
-            print(response?.suggestedFilename ?? url.lastPathComponent)
-            print("Download Finished")
-            DispatchQueue.main.async() {
-                imageView.image = UIImage(data: data)
-            }
-        }
-    }
-    
-    func downloadedFrom(url: URL, contentMode mode: UIViewContentMode = .scaleAspectFit) -> UIImage  {
-        if let data = try? Data(contentsOf: url) {
-            return UIImage(data: data)!
-        }
-        return UIImage()
-    }
-    func downloadedFrom(link: String, contentMode mode: UIViewContentMode = .scaleAspectFit) -> UIImage {
-        guard let url = URL(string: link) else { return UIImage() }
-        return downloadedFrom(url: url, contentMode: mode)
     }
 }
 
